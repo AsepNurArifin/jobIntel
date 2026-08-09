@@ -1,0 +1,52 @@
+# ── Nuxt dev/build outputs ──
+.output/
+.data/
+.nuxt/
+.nitro/
+.cache/
+dist/
+
+# ── Node dependencies ──
+node_modules/
+
+# ── Package manager locks (pilih salah satu, sisanya ignore) ──
+# Uncomment jika hanya pakai satu package manager:
+# yarn.lock
+# pnpm-lock.yaml
+
+# ── Logs ──
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Local env files ──
+.env
+.env.*
+!.env.example
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+.fleet/
+*.swp
+*.swo
+*~
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ── Testing & coverage ──
+coverage/
+.nyc_output/
+
+# ── TypeScript ──
+*.tsbuildinfo
+
+# ── Misc ──
+*.local

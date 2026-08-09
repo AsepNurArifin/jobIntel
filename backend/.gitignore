@@ -1,0 +1,60 @@
+# ── Python bytecode & build artifacts ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+wheels/
+sdist/
+*.whl
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+ENV/
+
+# ── uv ──
+# uv.lock sudah di-track (bagus untuk reproducibility)
+# tapi cache uv jangan di-track
+.uv/
+
+# ── Secrets & env files ──
+.env
+.env.*
+!.env.example
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.fleet/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ── Testing & coverage ──
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.mypy_cache/
+.ruff_cache/
+
+# ── Dataset besar ──
+data/esco/*.txt
+data/esco/*.json
+
+# ── Logs ──
+*.log
+logs/

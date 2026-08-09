@@ -1,0 +1,31 @@
+[
+  {
+    "postingDate": "2026-08-09",
+    "position": "metadata_placeholder",
+    "salaryMin": null,
+    "salaryMax": null,
+    "note": "This is a sample fixture mimicking RemoteOK API: first element is metadata/legal info, must be skipped."
+  },
+  {
+    "id": 800101,
+    "position": "Senior Backend Engineer (Python)",
+    "company": "Acme Corp",
+    "location": "Worldwide",
+    "date": "2026-08-08T10:00:00.000Z",
+    "url": "https://remoteok.com/remote-jobs/800101-senior-backend-engineer",
+    "tags": ["python", "backend", "remote"],
+    "description": "<h3>About the role</h3><p>We are looking for a Senior Backend Engineer with strong experience in <strong>Python</strong> and <strong>PostgreSQL</strong>. You will build REST APIs using <strong>FastAPI</strong> and deploy with <strong>Docker</strong>. Experience with <strong>Kubernetes</strong> is a plus.</p><p>You should have excellent communication skills and the ability to work in a distributed team.</p>",
+    "applyUrl": "https://remoteok.com/remote-jobs/800101-senior-backend-engineer"
+  },
+  {
+    "id": 800102,
+    "position": "Machine Learning Engineer",
+    "company": "DataWorks",
+    "location": "Americas",
+    "date": "2026-08-07T08:30:00.000Z",
+    "url": "https://remoteok.com/remote-jobs/800102-machine-learning-engineer",
+    "tags": ["ml", "data", "remote"],
+    "description": "<p><strong>Machine Learning Engineer</strong> needed to join our data science team. Strong skills in <strong>Python</strong>, <strong>PyTorch</strong> and <strong>MLOps</strong> are required. You will train and evaluate models on <strong>TensorFlow</strong> and deploy them via <strong>Docker</strong> and <strong>Kubernetes</strong>. Experience with feature engineering and model monitoring is a big plus.</p><p>Ability to collaborate cross-functionally and communicate findings clearly to non-technical stakeholders is essential for this role.</p>",
+    "applyUrl": "https://remoteok.com/remote-jobs/800102-machine-learning-engineer"
+  }
+]

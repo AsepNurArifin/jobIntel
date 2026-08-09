@@ -1,0 +1,28 @@
+# ══════════════════════════════════════════
+#  Root .gitignore — jobHunter monorepo
+# ══════════════════════════════════════════
+# Aturan spesifik backend & frontend ada di
+# masing-masing folder .gitignore
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ── IDE / Editor ──
+.vscode/
+.idea/
+.fleet/
+*.swp
+*.swo
+*~
+
+# ── Env files ──
+.env
+.env.*
+!.env.example
+
+# ── Logs ──
+*.log
+logs/

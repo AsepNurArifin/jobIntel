@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Remote Programming Jobs</title>
+    <item>
+      <title>Star Labs: Frontend Developer (React)</title>
+      <link>https://weworkremotely.com/remote-jobs/star-labs-frontend-developer-react</link>
+      <guid>https://weworkremotely.com/remote-jobs/star-labs-frontend-developer-react</guid>
+      <pubDate>Mon, 04 Aug 2026 09:00:00 +0000</pubDate>
+      <description>Frontend Developer</description>
+      <content:encoded><![CDATA[
+        <p>Star Labs is hiring a Frontend Developer. Strong <strong>React</strong> and
+        <strong>TypeScript</strong> skills required. Experience with <strong>Vue</strong>
+        is a plus. You will build responsive UIs and collaborate with designers.
+        Good communication and attention to detail are essential.</p>
+      ]]></content:encoded>
+    </item>
+    <item>
+      <title>CloudNative Inc: DevOps Engineer</title>
+      <link>https://weworkremotely.com/remote-jobs/cloudnative-inc-devops-engineer</link>
+      <guid>https://weworkremotely.com/remote-jobs/cloudnative-inc-devops-engineer</guid>
+      <pubDate>Fri, 01 Aug 2026 14:00:00 +0000</pubDate>
+      <description>DevOps Engineer</description>
+      <content:encoded><![CDATA[
+        <p>DevOps Engineer at CloudNative Inc. Expertise in <strong>Kubernetes</strong>,
+        <strong>Docker</strong>, and <strong>AWS</strong> is required. You will manage CI/CD
+        pipelines, infrastructure as code with Terraform, and monitor production systems.
+        A strong problem-solving mindset and experience with Linux administration are
+        essential. This is a fully remote position with a global distributed team.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
