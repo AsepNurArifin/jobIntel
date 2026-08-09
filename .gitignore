@@ -26,3 +26,6 @@ ehthumbs.db
 # ── Logs ──
 *.log
 logs/
+
+plan.md
+PRD_SRS_JobIntel.md
