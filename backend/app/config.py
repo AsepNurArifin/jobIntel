@@ -19,8 +19,8 @@ class Settings(BaseSettings):
     scheduler_enabled: bool = False
     fetch_cron_hour: int = 6
 
-    search_threshold: float = 0.25
-    skill_match_threshold: float = 0.80
+    search_threshold: float = 0.25  # final §13 (11-08-2026, 187 posting): precision top-10 ~70-80% utk query dgn data cukup
+    skill_match_threshold: float = 0.80  # final §13 (11-08-2026): false-mapping minimal, coverage wajar
     role_filter_distance: float = 0.75
 
     extraction_version: int = 1
