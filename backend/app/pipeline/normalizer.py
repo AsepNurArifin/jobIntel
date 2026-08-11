@@ -39,12 +39,22 @@ def _match_by_embedding(client: Any, raw: str, settings: Settings) -> int | None
 
 
 def _record_unmatched(client: Any, raw: str) -> None:
+    """Catat raw skill yang gagal match; increment occurrences bila sudah ada."""
     try:
-        client.table("unmatched_skills").upsert(
-            {"raw_name": raw, "occurrences": 1},
-            on_conflict="raw_name",
-            ignore_duplicates=True,
-        ).execute()
+        existing = (
+            client.table("unmatched_skills")
+            .select("id, occurrences")
+            .eq("raw_name", raw)
+            .execute()
+        ).data
+        if existing:
+            client.table("unmatched_skills").update(
+                {"occurrences": int(existing[0].get("occurrences") or 0) + 1}
+            ).eq("id", existing[0]["id"]).execute()
+        else:
+            client.table("unmatched_skills").insert(
+                {"raw_name": raw, "occurrences": 1}
+            ).execute()
     except Exception:
         pass
 

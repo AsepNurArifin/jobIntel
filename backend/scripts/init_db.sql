@@ -187,7 +187,7 @@ END;
 $$;
 
 -- ---------- RPC: count posting dalam rentang hari (konsisten COALESCE) ----------
-CREATE OR REPLACE FUNCTION count_postings_in_days(max_days int)
+CREATE OR REPLACE FUNCTION count_postings_in_days(max_days int, role_vec vector DEFAULT NULL)
 RETURNS BIGINT
 LANGUAGE sql
 STABLE
@@ -195,5 +195,6 @@ AS $$
     SELECT COUNT(*)::bigint
     FROM job_postings
     WHERE is_duplicate_of IS NULL
-      AND COALESCE(posted_date, fetched_at::date) >= current_date - max_days;
+      AND COALESCE(posted_date, fetched_at::date) >= current_date - max_days
+      AND (role_vec IS NULL OR 1 - (embedding <=> role_vec) >= 0.25);
 $$;

@@ -24,7 +24,7 @@ def _top_skills(client, posting_id: int, limit: int = 5) -> list[str]:
     ids = resp[0]["skill_ids"][:limit]
     names = (
         client.table("skills")
-        .select("canonical_name")
+        .select("id, canonical_name")
         .in_("id", ids)
         .execute()
     ).data or []

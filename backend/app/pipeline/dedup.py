@@ -42,19 +42,31 @@ def upsert_raw_jobs(client: Any, jobs: list[RawJob]) -> int:
     batch = 200
     for i in range(0, len(rows), batch):
         chunk = rows[i : i + batch]
+        # Hanya insert row yang pasti belum ada (cek dulu) untuk menghindari
+        # ketidakjelasan hasil upsert ignore_duplicates lintas versi PostgREST.
+        try:
+            existing = (
+                client.table("job_postings")
+                .select("source, source_id")
+                .in_("source_id", [r["source_id"] for r in chunk])
+                .execute()
+            ).data or []
+            existing_keys = {(e["source"], e["source_id"]) for e in existing}
+        except Exception:
+            existing_keys = set()
+        fresh = [r for r in chunk if (r["source"], r["source_id"]) not in existing_keys]
+        if not fresh:
+            continue
         try:
             data = (
                 client.table("job_postings")
-                .upsert(chunk, on_conflict="source,source_id", ignore_duplicates=True)
+                .insert(fresh, on_conflict="source,source_id", ignore_duplicates=True)
                 .execute()
             )
             if data.data:
                 inserted += len(data.data)
         except Exception:
-            # Supabase PostgREST: upsert ignore_duplicates mengembalikan [] untuk
-            # row yang di-skip, tapi beberapa versi return None/exception.
-            # Fallback: try insert per-row untuk hitung akurat.
-            for row in chunk:
+            for row in fresh:
                 try:
                     res = (
                         client.table("job_postings")
@@ -69,18 +81,25 @@ def upsert_raw_jobs(client: Any, jobs: list[RawJob]) -> int:
     return inserted
 
 
-def run_dedup(client: Any) -> int:
+def run_dedup(client: Any, window_days: int = 90) -> int:
     """Flag posting yang sama muncul di sumber berbeda (normalized title+company).
 
     Hanya memproses posting tanpa is_duplicate_of, dan hanya menandai duplikat
     terhadap posting yang `is_duplicate_of IS NULL` (root) — bukan rantai.
+
+    Terbatas pada posting dalam `window_days` terakhir agar tidak memuat seluruh
+    tabel (PostgREST default limit ~1000 rows) — batas skala plan §2.3.
     """
     flagged = 0
+    from datetime import datetime, timedelta, timezone
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=window_days)).isoformat()
     # Ambil semua posting yang belum di-flag, root dan kandidat duplikat.
     resp = (
         client.table("job_postings")
         .select("id, source, title, company, is_duplicate_of")
         .is_("is_duplicate_of", "null")
+        .gte("fetched_at", cutoff)
         .execute()
     )
     if not resp.data:

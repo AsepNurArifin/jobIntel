@@ -96,15 +96,13 @@ async def run_extraction(client: Any, settings: Settings) -> tuple[int, int]:
 
     Returns (n_done, n_failed).
     """
-    from app.db import get_client as get_db_client
-
-    db = get_db_client()
+    db = client
     groq = Groq(api_key=settings.groq_api_key)
 
     # Kandidat: belum done, versi outdated, bukan duplikat, retry < 3
     candidates = (
         db.table("job_postings")
-        .select("id, title, raw_description")
+        .select("id, title, raw_description, retry_count")
         .or_(
             f"extraction_status.eq.pending,extraction_status.eq.failed,"
             f"and(extraction_status.eq.done,extraction_version.lt.{settings.extraction_version})"
@@ -146,7 +144,12 @@ async def run_extraction(client: Any, settings: Settings) -> tuple[int, int]:
         except Exception:
             n_failed += 1
             try:
-                db.table("job_postings").update({"extraction_status": "failed"}).eq("id", pid).execute()
+                db.table("job_postings").update(
+                    {
+                        "extraction_status": "failed",
+                        "retry_count": int(row.get("retry_count") or 0) + 1,
+                    }
+                ).eq("id", pid).execute()
             except Exception:
                 pass
         time.sleep(0.2)  # gentle pacing ke Groq

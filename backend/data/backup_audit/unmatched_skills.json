@@ -1,0 +1,954 @@
+[
+ {
+  "id": 1,
+  "raw_name": "adventuresome",
+  "first_seen": "2026-08-09T13:52:46.228233+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 2,
+  "raw_name": "communicative",
+  "first_seen": "2026-08-09T13:52:47.619083+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 3,
+  "raw_name": "patient",
+  "first_seen": "2026-08-09T13:52:48.229478+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 4,
+  "raw_name": "friendly",
+  "first_seen": "2026-08-09T13:52:49.36145+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 5,
+  "raw_name": "passionate",
+  "first_seen": "2026-08-09T13:52:50.25651+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 6,
+  "raw_name": "adaptable",
+  "first_seen": "2026-08-09T13:52:50.813477+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 7,
+  "raw_name": "motivated",
+  "first_seen": "2026-08-09T13:52:51.400636+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 8,
+  "raw_name": "trouble shooting",
+  "first_seen": "2026-08-09T13:52:52.630978+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 9,
+  "raw_name": "plumbing",
+  "first_seen": "2026-08-09T13:52:53.368463+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 10,
+  "raw_name": "ruby",
+  "first_seen": "2026-08-09T13:52:55.111438+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 11,
+  "raw_name": "node.js",
+  "first_seen": "2026-08-09T13:52:55.971828+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 12,
+  "raw_name": "next.js",
+  "first_seen": "2026-08-09T13:52:56.989787+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 13,
+  "raw_name": "ai",
+  "first_seen": "2026-08-09T13:52:58.010604+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 14,
+  "raw_name": "golang",
+  "first_seen": "2026-08-09T13:52:59.496472+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 15,
+  "raw_name": "swift",
+  "first_seen": "2026-08-09T13:53:01.548546+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 16,
+  "raw_name": "dart",
+  "first_seen": "2026-08-09T13:53:02.779188+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 17,
+  "raw_name": "blockchain",
+  "first_seen": "2026-08-09T13:53:04.00402+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 18,
+  "raw_name": "ethereum",
+  "first_seen": "2026-08-09T13:53:05.127779+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 19,
+  "raw_name": "flutter",
+  "first_seen": "2026-08-09T13:53:05.869712+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 20,
+  "raw_name": "android",
+  "first_seen": "2026-08-09T13:53:07.187785+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 21,
+  "raw_name": "data science",
+  "first_seen": "2026-08-09T13:53:08.102363+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 22,
+  "raw_name": "data engineering",
+  "first_seen": "2026-08-09T13:53:09.218683+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 23,
+  "raw_name": "mlops",
+  "first_seen": "2026-08-09T13:53:09.847693+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 24,
+  "raw_name": "qa automation",
+  "first_seen": "2026-08-09T13:53:10.470442+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 25,
+  "raw_name": "qa manual",
+  "first_seen": "2026-08-09T13:53:10.974153+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 26,
+  "raw_name": "embedded software engineering",
+  "first_seen": "2026-08-09T13:53:11.620672+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 27,
+  "raw_name": "rust",
+  "first_seen": "2026-08-09T13:53:12.293453+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 28,
+  "raw_name": "electron",
+  "first_seen": "2026-08-09T13:53:13.62624+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 29,
+  "raw_name": "svelte",
+  "first_seen": "2026-08-09T13:53:14.188908+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 30,
+  "raw_name": "unity",
+  "first_seen": "2026-08-09T13:53:14.887485+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 31,
+  "raw_name": "clear and effective communication",
+  "first_seen": "2026-08-09T13:53:15.47071+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 32,
+  "raw_name": "strong self-organizational skills",
+  "first_seen": "2026-08-09T13:53:16.657194+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 33,
+  "raw_name": "reliability",
+  "first_seen": "2026-08-09T13:53:17.623101+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 34,
+  "raw_name": "adaptability",
+  "first_seen": "2026-08-09T13:53:18.772433+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 35,
+  "raw_name": "flexibility",
+  "first_seen": "2026-08-09T13:53:19.778252+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 36,
+  "raw_name": "good self-presentation",
+  "first_seen": "2026-08-09T13:53:20.724006+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 37,
+  "raw_name": "azure",
+  "first_seen": "2026-08-09T13:53:21.510903+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 38,
+  "raw_name": "pandas",
+  "first_seen": "2026-08-09T13:53:22.741688+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 39,
+  "raw_name": "react native",
+  "first_seen": "2026-08-09T13:53:23.475889+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 40,
+  "raw_name": "laravel",
+  "first_seen": "2026-08-09T13:53:24.679894+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 41,
+  "raw_name": "nuxt",
+  "first_seen": "2026-08-09T13:53:25.012268+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 42,
+  "raw_name": "shopify",
+  "first_seen": "2026-08-09T13:53:25.710064+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 43,
+  "raw_name": "graphql",
+  "first_seen": "2026-08-09T13:53:26.771289+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 44,
+  "raw_name": "design",
+  "first_seen": "2026-08-09T13:53:28.832219+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 45,
+  "raw_name": "creativity",
+  "first_seen": "2026-08-09T13:53:29.60071+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 46,
+  "raw_name": "attention to detail",
+  "first_seen": "2026-08-09T13:53:30.221259+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 47,
+  "raw_name": "collaboration",
+  "first_seen": "2026-08-09T13:53:31.749678+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 48,
+  "raw_name": "revit",
+  "first_seen": "2026-08-09T13:53:32.978478+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 49,
+  "raw_name": "sketchup",
+  "first_seen": "2026-08-09T13:53:33.599289+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 50,
+  "raw_name": "curiosity",
+  "first_seen": "2026-08-09T13:53:34.634637+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 51,
+  "raw_name": "courage",
+  "first_seen": "2026-08-09T13:53:35.557228+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 52,
+  "raw_name": "editing",
+  "first_seen": "2026-08-09T13:53:37.511681+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 53,
+  "raw_name": "airport and customs clearance procedures",
+  "first_seen": "2026-08-09T13:53:38.228444+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 54,
+  "raw_name": "general office skills",
+  "first_seen": "2026-08-09T13:53:39.436285+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 55,
+  "raw_name": "personable",
+  "first_seen": "2026-08-09T13:53:40.76738+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 56,
+  "raw_name": "good written and verbal communication skills",
+  "first_seen": "2026-08-09T13:53:41.236924+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 57,
+  "raw_name": "teamwork",
+  "first_seen": "2026-08-09T13:53:42.394573+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 58,
+  "raw_name": "integrity",
+  "first_seen": "2026-08-09T13:53:43.012919+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 59,
+  "raw_name": "respect",
+  "first_seen": "2026-08-09T13:53:43.640657+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 60,
+  "raw_name": "spatial thinking",
+  "first_seen": "2026-08-09T13:53:44.348713+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 61,
+  "raw_name": "obsidian",
+  "first_seen": "2026-08-09T13:53:45.061343+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 62,
+  "raw_name": "vs code",
+  "first_seen": "2026-08-09T13:53:45.589499+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 63,
+  "raw_name": "blender",
+  "first_seen": "2026-08-09T13:53:46.050926+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 64,
+  "raw_name": "twitter",
+  "first_seen": "2026-08-09T13:53:47.312904+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 66,
+  "raw_name": "dexterous",
+  "first_seen": "2026-08-09T13:53:48.850586+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 67,
+  "raw_name": "risk reduction",
+  "first_seen": "2026-08-09T13:53:49.871014+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 68,
+  "raw_name": "organised",
+  "first_seen": "2026-08-09T13:53:50.495594+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 69,
+  "raw_name": "proactive",
+  "first_seen": "2026-08-09T13:53:51.403122+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 70,
+  "raw_name": "languages",
+  "first_seen": "2026-08-09T13:53:52.576508+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 71,
+  "raw_name": "analytical",
+  "first_seen": "2026-08-09T13:53:55.718695+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 72,
+  "raw_name": "written and oral communication",
+  "first_seen": "2026-08-09T13:53:57.145891+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 73,
+  "raw_name": "interpersonal",
+  "first_seen": "2026-08-09T13:53:57.752294+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 74,
+  "raw_name": "record keeping",
+  "first_seen": "2026-08-09T13:53:59.605992+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 75,
+  "raw_name": "data entry",
+  "first_seen": "2026-08-09T13:53:59.912722+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 76,
+  "raw_name": "interpersonal skills",
+  "first_seen": "2026-08-09T13:54:01.061148+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 77,
+  "raw_name": "organizational skills",
+  "first_seen": "2026-08-09T13:54:01.45916+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 81,
+  "raw_name": "proactivity",
+  "first_seen": "2026-08-09T13:54:03.691973+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 82,
+  "raw_name": "critical thinking",
+  "first_seen": "2026-08-09T13:54:04.207128+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 83,
+  "raw_name": "planning",
+  "first_seen": "2026-08-09T13:54:05.127456+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 84,
+  "raw_name": "coordination",
+  "first_seen": "2026-08-09T13:54:05.597085+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 85,
+  "raw_name": "leadership",
+  "first_seen": "2026-08-09T13:54:06.807278+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 86,
+  "raw_name": "webgl",
+  "first_seen": "2026-08-09T13:54:07.482585+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 87,
+  "raw_name": "java development",
+  "first_seen": "2026-08-09T13:54:08.255881+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 88,
+  "raw_name": "distributed systems concepts",
+  "first_seen": "2026-08-09T13:54:08.568681+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 89,
+  "raw_name": "clear communication skills",
+  "first_seen": "2026-08-09T13:54:09.036547+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 90,
+  "raw_name": "strong problem-solving skills",
+  "first_seen": "2026-08-09T13:54:09.282716+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 91,
+  "raw_name": "ability to work effectively",
+  "first_seen": "2026-08-09T13:54:09.541741+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 92,
+  "raw_name": "jvm",
+  "first_seen": "2026-08-09T13:54:09.854311+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 93,
+  "raw_name": "docker",
+  "first_seen": "2026-08-09T13:54:10.251301+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 94,
+  "raw_name": "git",
+  "first_seen": "2026-08-09T13:54:10.556101+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 95,
+  "raw_name": "argocd",
+  "first_seen": "2026-08-09T13:54:10.995313+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 96,
+  "raw_name": "windows",
+  "first_seen": "2026-08-09T13:54:11.436433+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 97,
+  "raw_name": "cpu",
+  "first_seen": "2026-08-09T13:54:11.678982+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 98,
+  "raw_name": "memory",
+  "first_seen": "2026-08-09T13:54:11.987932+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 99,
+  "raw_name": "gpu",
+  "first_seen": "2026-08-09T13:54:12.400906+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 100,
+  "raw_name": "disk usage",
+  "first_seen": "2026-08-09T13:54:12.763419+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 101,
+  "raw_name": "process control",
+  "first_seen": "2026-08-09T13:54:13.098541+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 102,
+  "raw_name": "software deployment",
+  "first_seen": "2026-08-09T13:54:13.332177+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 103,
+  "raw_name": "configuration management",
+  "first_seen": "2026-08-09T13:54:13.634714+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 104,
+  "raw_name": "diagnostic actions",
+  "first_seen": "2026-08-09T13:54:14.008563+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 105,
+  "raw_name": "display topology",
+  "first_seen": "2026-08-09T13:54:14.387903+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 106,
+  "raw_name": "nvidia mosaic",
+  "first_seen": "2026-08-09T13:54:14.808199+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 107,
+  "raw_name": "api",
+  "first_seen": "2026-08-09T13:54:15.152571+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 108,
+  "raw_name": "idempotency",
+  "first_seen": "2026-08-09T13:54:15.615206+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 109,
+  "raw_name": "webhooks",
+  "first_seen": "2026-08-09T13:54:15.831818+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 110,
+  "raw_name": "hmac signatures",
+  "first_seen": "2026-08-09T13:54:16.063878+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 111,
+  "raw_name": "tls",
+  "first_seen": "2026-08-09T13:54:16.277291+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 112,
+  "raw_name": "oauth",
+  "first_seen": "2026-08-09T13:54:16.517501+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 113,
+  "raw_name": "two-factor authentication",
+  "first_seen": "2026-08-09T13:54:16.810232+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 114,
+  "raw_name": "openai",
+  "first_seen": "2026-08-09T13:54:17.055897+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 115,
+  "raw_name": "anthropic",
+  "first_seen": "2026-08-09T13:54:17.298463+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 116,
+  "raw_name": "firebase",
+  "first_seen": "2026-08-09T13:54:17.912902+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 117,
+  "raw_name": "cli",
+  "first_seen": "2026-08-09T13:54:18.914917+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 118,
+  "raw_name": "a/b testing",
+  "first_seen": "2026-08-09T13:54:19.600235+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 119,
+  "raw_name": "optimization",
+  "first_seen": "2026-08-09T13:54:20.341504+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 120,
+  "raw_name": "spoke",
+  "first_seen": "2026-08-09T13:54:20.824598+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 121,
+  "raw_name": "istio",
+  "first_seen": "2026-08-09T13:54:21.556101+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 123,
+  "raw_name": "helm",
+  "first_seen": "2026-08-09T13:54:22.64252+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 124,
+  "raw_name": "prometheus",
+  "first_seen": "2026-08-09T13:54:23.260943+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 126,
+  "raw_name": "envoy",
+  "first_seen": "2026-08-09T13:54:23.975191+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 128,
+  "raw_name": "ec2",
+  "first_seen": "2026-08-09T13:54:25.725592+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 129,
+  "raw_name": "eks",
+  "first_seen": "2026-08-09T13:54:26.130446+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 130,
+  "raw_name": "iam",
+  "first_seen": "2026-08-09T13:54:26.635976+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 131,
+  "raw_name": "vpc",
+  "first_seen": "2026-08-09T13:54:26.944915+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 132,
+  "raw_name": "ecs",
+  "first_seen": "2026-08-09T13:54:27.458535+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 133,
+  "raw_name": "nomad",
+  "first_seen": "2026-08-09T13:54:27.965247+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 134,
+  "raw_name": "mesos",
+  "first_seen": "2026-08-09T13:54:28.212633+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 135,
+  "raw_name": "purchasing",
+  "first_seen": "2026-08-09T13:54:29.0845+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 137,
+  "raw_name": "organizational",
+  "first_seen": "2026-08-09T13:54:30.248058+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 139,
+  "raw_name": "judgment",
+  "first_seen": "2026-08-09T13:54:30.902665+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 140,
+  "raw_name": "excel",
+  "first_seen": "2026-08-09T13:54:31.164215+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 141,
+  "raw_name": "purchasing platforms",
+  "first_seen": "2026-08-09T13:54:31.558136+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 142,
+  "raw_name": "enterprise procurement systems",
+  "first_seen": "2026-08-09T13:54:32.023246+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 143,
+  "raw_name": "asana",
+  "first_seen": "2026-08-09T13:54:32.580152+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 144,
+  "raw_name": "crm",
+  "first_seen": "2026-08-09T13:54:33.000111+00:00",
+  "occurrences": 1,
+  "resolved": false
+ },
+ {
+  "id": 147,
+  "raw_name": "self-discipline",
+  "first_seen": "2026-08-09T13:54:34.445918+00:00",
+  "occurrences": 1,
+  "resolved": false
+ }
+]

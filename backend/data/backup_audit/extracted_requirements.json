@@ -1,0 +1,1460 @@
+[
+ {
+  "job_posting_id": 1,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:52.503877+00:00"
+ },
+ {
+  "job_posting_id": 2,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:53.538806+00:00"
+ },
+ {
+  "job_posting_id": 3,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:54.753955+00:00"
+ },
+ {
+  "job_posting_id": 5,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "adventuresome"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:56.713451+00:00"
+ },
+ {
+  "job_posting_id": 6,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:57.403795+00:00"
+ },
+ {
+  "job_posting_id": 7,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:58.039218+00:00"
+ },
+ {
+  "job_posting_id": 8,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:47:59.056293+00:00"
+ },
+ {
+  "job_posting_id": 9,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:00.286259+00:00"
+ },
+ {
+  "job_posting_id": 10,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:01.207612+00:00"
+ },
+ {
+  "job_posting_id": 11,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:02.438634+00:00"
+ },
+ {
+  "job_posting_id": 12,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:03.37049+00:00"
+ },
+ {
+  "job_posting_id": 13,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:04.080955+00:00"
+ },
+ {
+  "job_posting_id": 14,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:04.893525+00:00"
+ },
+ {
+  "job_posting_id": 15,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:05.603817+00:00"
+ },
+ {
+  "job_posting_id": 16,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:06.429669+00:00"
+ },
+ {
+  "job_posting_id": 17,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:07.162688+00:00"
+ },
+ {
+  "job_posting_id": 18,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:07.989267+00:00"
+ },
+ {
+  "job_posting_id": 19,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:08.729586+00:00"
+ },
+ {
+  "job_posting_id": 20,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "communicative",
+   "patient"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:09.687991+00:00"
+ },
+ {
+  "job_posting_id": 21,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:10.831991+00:00"
+ },
+ {
+  "job_posting_id": 49,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "friendly",
+   "passionate",
+   "adaptable",
+   "motivated"
+  ],
+  "tools_raw": [],
+  "experience_level": "junior",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:11.956004+00:00"
+ },
+ {
+  "job_posting_id": 22,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:12.799832+00:00"
+ },
+ {
+  "job_posting_id": 23,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:14.421581+00:00"
+ },
+ {
+  "job_posting_id": 25,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "junior",
+  "min_years_experience": 0.0,
+  "employment_type": "onsite",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:16.36059+00:00"
+ },
+ {
+  "job_posting_id": 26,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:17.386011+00:00"
+ },
+ {
+  "job_posting_id": 28,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:22.959379+00:00"
+ },
+ {
+  "job_posting_id": 29,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:23.884656+00:00"
+ },
+ {
+  "job_posting_id": 30,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:27.83847+00:00"
+ },
+ {
+  "job_posting_id": 31,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:29.789875+00:00"
+ },
+ {
+  "job_posting_id": 32,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:31.687549+00:00"
+ },
+ {
+  "job_posting_id": 34,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:42.824161+00:00"
+ },
+ {
+  "job_posting_id": 35,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:45.991877+00:00"
+ },
+ {
+  "job_posting_id": 37,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:52.206688+00:00"
+ },
+ {
+  "job_posting_id": 38,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:48:55.425608+00:00"
+ },
+ {
+  "job_posting_id": 40,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:03.16195+00:00"
+ },
+ {
+  "job_posting_id": 41,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:04.944261+00:00"
+ },
+ {
+  "job_posting_id": 42,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:07.769062+00:00"
+ },
+ {
+  "job_posting_id": 43,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:09.625718+00:00"
+ },
+ {
+  "job_posting_id": 44,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:12.405546+00:00"
+ },
+ {
+  "job_posting_id": 45,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:15.598484+00:00"
+ },
+ {
+  "job_posting_id": 46,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "teamwork",
+   "integrity",
+   "respect"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:18.435946+00:00"
+ },
+ {
+  "job_posting_id": 48,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:25.653577+00:00"
+ },
+ {
+  "job_posting_id": 50,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "collaboration"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:27.427244+00:00"
+ },
+ {
+  "job_posting_id": 51,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:30.214478+00:00"
+ },
+ {
+  "job_posting_id": 52,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:33.266275+00:00"
+ },
+ {
+  "job_posting_id": 53,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:36.243419+00:00"
+ },
+ {
+  "job_posting_id": 54,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "dexterous"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:39.716779+00:00"
+ },
+ {
+  "job_posting_id": 55,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:42.579323+00:00"
+ },
+ {
+  "job_posting_id": 56,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:45.661527+00:00"
+ },
+ {
+  "job_posting_id": 58,
+  "hard_skills_raw": [
+   "languages"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "junior",
+  "min_years_experience": 0.0,
+  "employment_type": "onsite",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:49:52.321171+00:00"
+ },
+ {
+  "job_posting_id": 4,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "problem solving"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   9467
+  ],
+  "extracted_at": "2026-08-09T13:47:55.884774+00:00"
+ },
+ {
+  "job_posting_id": 96,
+  "hard_skills_raw": [
+   "cad",
+   "architecture",
+   "design"
+  ],
+  "soft_skills_raw": [
+   "creativity",
+   "attention to detail",
+   "problem-solving",
+   "communication",
+   "collaboration"
+  ],
+  "tools_raw": [
+   "autocad",
+   "revit",
+   "sketchup"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "hybrid",
+  "skill_ids": [
+   8894,
+   7056,
+   9467,
+   1167,
+   6499
+  ],
+  "extracted_at": "2026-08-09T13:48:35.677254+00:00"
+ },
+ {
+  "job_posting_id": 33,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "curiosity",
+   "courage",
+   "commitment"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   1707
+  ],
+  "extracted_at": "2026-08-09T13:48:38.788686+00:00"
+ },
+ {
+  "job_posting_id": 36,
+  "hard_skills_raw": [
+   "writing",
+   "editing"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   8005
+  ],
+  "extracted_at": "2026-08-09T13:48:49.348549+00:00"
+ },
+ {
+  "job_posting_id": 39,
+  "hard_skills_raw": [
+   "airport and customs clearance procedures",
+   "international freight/cargo customs policies",
+   "general office skills",
+   "computer literacy"
+  ],
+  "soft_skills_raw": [
+   "personable",
+   "good written and verbal communication skills"
+  ],
+  "tools_raw": [],
+  "experience_level": "mid",
+  "min_years_experience": 2.0,
+  "employment_type": "unknown",
+  "skill_ids": [
+   692,
+   11343
+  ],
+  "extracted_at": "2026-08-09T13:49:00.307669+00:00"
+ },
+ {
+  "job_posting_id": 47,
+  "hard_skills_raw": [
+   "spatial thinking"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [
+   "obsidian",
+   "vs code",
+   "blender",
+   "github",
+   "twitter"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   13904
+  ],
+  "extracted_at": "2026-08-09T13:49:22.755663+00:00"
+ },
+ {
+  "job_posting_id": 57,
+  "hard_skills_raw": [
+   "health and safety",
+   "risk reduction"
+  ],
+  "soft_skills_raw": [
+   "organised",
+   "proactive"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   7024
+  ],
+  "extracted_at": "2026-08-09T13:49:49.373741+00:00"
+ },
+ {
+  "job_posting_id": 61,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:03.879209+00:00"
+ },
+ {
+  "job_posting_id": 62,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:05.828227+00:00"
+ },
+ {
+  "job_posting_id": 63,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:08.551054+00:00"
+ },
+ {
+  "job_posting_id": 64,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [
+   "leadership"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:11.571166+00:00"
+ },
+ {
+  "job_posting_id": 65,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:14.743406+00:00"
+ },
+ {
+  "job_posting_id": 66,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:17.602744+00:00"
+ },
+ {
+  "job_posting_id": 67,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:20.672942+00:00"
+ },
+ {
+  "job_posting_id": 69,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "onsite",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:26.610978+00:00"
+ },
+ {
+  "job_posting_id": 70,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:29.512353+00:00"
+ },
+ {
+  "job_posting_id": 71,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:33.027284+00:00"
+ },
+ {
+  "job_posting_id": 73,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:39.325665+00:00"
+ },
+ {
+  "job_posting_id": 74,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:43.434506+00:00"
+ },
+ {
+  "job_posting_id": 75,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:44.348675+00:00"
+ },
+ {
+  "job_posting_id": 78,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:55.422887+00:00"
+ },
+ {
+  "job_posting_id": 79,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:50:57.336102+00:00"
+ },
+ {
+  "job_posting_id": 80,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:00.715262+00:00"
+ },
+ {
+  "job_posting_id": 81,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:04.303801+00:00"
+ },
+ {
+  "job_posting_id": 82,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:11.582849+00:00"
+ },
+ {
+  "job_posting_id": 83,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:21.831343+00:00"
+ },
+ {
+  "job_posting_id": 84,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:23.564906+00:00"
+ },
+ {
+  "job_posting_id": 85,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:25.414979+00:00"
+ },
+ {
+  "job_posting_id": 86,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:28.379513+00:00"
+ },
+ {
+  "job_posting_id": 87,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:31.44023+00:00"
+ },
+ {
+  "job_posting_id": 88,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:33.588444+00:00"
+ },
+ {
+  "job_posting_id": 89,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:34.899301+00:00"
+ },
+ {
+  "job_posting_id": 91,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:43.625962+00:00"
+ },
+ {
+  "job_posting_id": 92,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:45.668648+00:00"
+ },
+ {
+  "job_posting_id": 93,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [
+   "asana"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:51:47.630152+00:00"
+ },
+ {
+  "job_posting_id": 95,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:52:02.118725+00:00"
+ },
+ {
+  "job_posting_id": 97,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:52:03.987684+00:00"
+ },
+ {
+  "job_posting_id": 98,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:52:06.145075+00:00"
+ },
+ {
+  "job_posting_id": 99,
+  "hard_skills_raw": [],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": null,
+  "extracted_at": "2026-08-09T13:52:07.991299+00:00"
+ },
+ {
+  "job_posting_id": 24,
+  "hard_skills_raw": [
+   "maintenance",
+   "trouble shooting",
+   "plumbing",
+   "electrical",
+   "painting"
+  ],
+  "soft_skills_raw": [
+   "communication"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   5982,
+   10889,
+   9082,
+   1167
+  ],
+  "extracted_at": "2026-08-09T13:48:15.439225+00:00"
+ },
+ {
+  "job_posting_id": 27,
+  "hard_skills_raw": [
+   "react",
+   "python",
+   "ruby",
+   "node.js",
+   "next.js",
+   "typescript",
+   "ai",
+   "java",
+   "golang",
+   "php",
+   "vue",
+   "angular",
+   "sql",
+   "javascript",
+   "swift",
+   "dart",
+   "blockchain",
+   "ethereum",
+   "flutter",
+   "ios",
+   "android",
+   "machine learning",
+   "data science",
+   "data analysis",
+   "data engineering",
+   "devops",
+   "mlops",
+   "qa automation",
+   "qa manual",
+   "embedded software engineering",
+   "rust",
+   "scala",
+   "c++",
+   "electron",
+   "svelte",
+   "unreal engine",
+   "unity"
+  ],
+  "soft_skills_raw": [
+   "clear and effective communication",
+   "strong self-organizational skills",
+   "reliability",
+   "adaptability",
+   "flexibility",
+   "good self-presentation"
+  ],
+  "tools_raw": [
+   "aws",
+   "gcp",
+   "azure",
+   "postgresql",
+   "pandas",
+   "react native",
+   "wordpress",
+   "laravel",
+   "nuxt",
+   "shopify",
+   "graphql"
+  ],
+  "experience_level": "senior",
+  "min_years_experience": 4.0,
+  "employment_type": "remote",
+  "skill_ids": [
+   13902,
+   13897,
+   7360,
+   1371,
+   3680,
+   13903,
+   1722,
+   4902,
+   3339,
+   11186,
+   3185,
+   2410,
+   13033,
+   13887,
+   9895,
+   9598,
+   13901,
+   13900,
+   9201,
+   6007
+  ],
+  "extracted_at": "2026-08-09T13:48:18.925526+00:00"
+ },
+ {
+  "job_posting_id": 59,
+  "hard_skills_raw": [
+   "electrical equipment",
+   "industrial automation",
+   "pneumatic controls",
+   "welding"
+  ],
+  "soft_skills_raw": [
+   "analytical",
+   "problem solving",
+   "decision making",
+   "written and oral communication",
+   "interpersonal"
+  ],
+  "tools_raw": [
+   "microsoft office suite"
+  ],
+  "experience_level": "mid",
+  "min_years_experience": 5.0,
+  "employment_type": "unknown",
+  "skill_ids": [
+   12416,
+   13266,
+   10356,
+   4559,
+   9467,
+   11619,
+   13362
+  ],
+  "extracted_at": "2026-08-09T13:49:56.123211+00:00"
+ },
+ {
+  "job_posting_id": 68,
+  "hard_skills_raw": [
+   "canvas",
+   "webgl"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [],
+  "experience_level": "senior",
+  "min_years_experience": 5.0,
+  "employment_type": "unknown",
+  "skill_ids": [
+   573
+  ],
+  "extracted_at": "2026-08-09T13:50:23.75724+00:00"
+ },
+ {
+  "job_posting_id": 72,
+  "hard_skills_raw": [
+   "java development",
+   "distributed systems concepts",
+   "problem-solving"
+  ],
+  "soft_skills_raw": [
+   "clear communication skills",
+   "strong problem-solving skills",
+   "ability to work effectively"
+  ],
+  "tools_raw": [
+   "jvm",
+   "kubernetes",
+   "docker",
+   "git",
+   "flux",
+   "argocd"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "onsite",
+  "skill_ids": [
+   9467,
+   13898,
+   7904
+  ],
+  "extracted_at": "2026-08-09T13:50:36.1466+00:00"
+ },
+ {
+  "job_posting_id": 76,
+  "hard_skills_raw": [
+   "windows",
+   "cpu",
+   "memory",
+   "gpu",
+   "disk usage",
+   "process control",
+   "software deployment",
+   "configuration management",
+   "diagnostic actions",
+   "display topology",
+   "nvidia mosaic",
+   "api",
+   "scripting",
+   "idempotency",
+   "webhooks",
+   "hmac signatures",
+   "tls",
+   "oauth",
+   "two-factor authentication"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [
+   "openai",
+   "anthropic",
+   "github",
+   "firebase",
+   "curl",
+   "typescript",
+   "cli"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   5198,
+   13904,
+   8724,
+   7360
+  ],
+  "extracted_at": "2026-08-09T13:50:51.219768+00:00"
+ },
+ {
+  "job_posting_id": 77,
+  "hard_skills_raw": [
+   "a/b testing",
+   "accessibility",
+   "optimization"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [
+   "spoke"
+  ],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   12589
+  ],
+  "extracted_at": "2026-08-09T13:50:53.613706+00:00"
+ },
+ {
+  "job_posting_id": 132,
+  "hard_skills_raw": [
+   "kubernetes",
+   "istio",
+   "ai",
+   "sql"
+  ],
+  "soft_skills_raw": [],
+  "tools_raw": [
+   "helm",
+   "prometheus",
+   "argocd",
+   "envoy",
+   "pandas",
+   "aws",
+   "gcp",
+   "ec2",
+   "eks",
+   "iam",
+   "vpc",
+   "ecs",
+   "nomad",
+   "mesos"
+  ],
+  "experience_level": "senior",
+  "min_years_experience": 5.0,
+  "employment_type": "hybrid",
+  "skill_ids": [
+   13898,
+   4902,
+   13901,
+   13900
+  ],
+  "extracted_at": "2026-08-09T13:51:08.621113+00:00"
+ },
+ {
+  "job_posting_id": 90,
+  "hard_skills_raw": [
+   "procurement",
+   "purchasing",
+   "supply chain",
+   "accounting"
+  ],
+  "soft_skills_raw": [
+   "attention to detail",
+   "problem-solving",
+   "communication",
+   "organizational",
+   "adaptability",
+   "judgment"
+  ],
+  "tools_raw": [
+   "excel",
+   "purchasing platforms",
+   "enterprise procurement systems"
+  ],
+  "experience_level": "junior",
+  "min_years_experience": 1.0,
+  "employment_type": "unknown",
+  "skill_ids": [
+   8524,
+   13509,
+   12795,
+   9467,
+   1167
+  ],
+  "extracted_at": "2026-08-09T13:51:41.433157+00:00"
+ },
+ {
+  "job_posting_id": 94,
+  "hard_skills_raw": [
+   "english",
+   "hindi",
+   "crm"
+  ],
+  "soft_skills_raw": [
+   "communication",
+   "customer service",
+   "teamwork",
+   "time management",
+   "problem solving",
+   "adaptability",
+   "self-discipline"
+  ],
+  "tools_raw": [],
+  "experience_level": "unknown",
+  "min_years_experience": null,
+  "employment_type": "unknown",
+  "skill_ids": [
+   6013,
+   11783,
+   1167,
+   1157,
+   11768,
+   9467
+  ],
+  "extracted_at": "2026-08-09T13:51:55.232367+00:00"
+ },
+ {
+  "job_posting_id": 60,
+  "hard_skills_raw": [
+   "inventory management",
+   "record keeping",
+   "data entry",
+   "problem solving",
+   "time management",
+   "communication",
+   "interpersonal skills"
+  ],
+  "soft_skills_raw": [
+   "organizational skills",
+   "attention to detail",
+   "teamwork",
+   "collaboration",
+   "proactivity",
+   "critical thinking",
+   "decision making",
+   "planning",
+   "coordination"
+  ],
+  "tools_raw": [
+   "microsoft office suite"
+  ],
+  "experience_level": "mid",
+  "min_years_experience": 2.0,
+  "employment_type": "unknown",
+  "skill_ids": [
+   9345,
+   9467,
+   11768,
+   1167,
+   11619,
+   13362
+  ],
+  "extracted_at": "2026-08-09T13:49:59.331357+00:00"
+ }
+]

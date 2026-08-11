@@ -1,0 +1,189 @@
+canonical,aliases,category
+python,python programming,py,hard
+javascript,js,hard
+typescript,ts,hard
+java,hard
+golang,go,hard
+rust,hard
+c++,hard
+c#,csharp,hard
+ruby,hard
+php,hard
+kotlin,hard
+swift,hard
+scala,hard
+perl,hard
+lua,hard
+r (programming language),r,hard
+matlab,hard
+groovy,hard
+visual basic,vb,hard
+elixir,hard
+haskell,hard
+clojure,hard
+dart,hard
+objective-c,hard
+assembly language,assembly,hard
+sql,structured query language,hard
+html,hard
+css,cascading style sheets,hard
+shell scripting,shell,bash,hard
+powershell,hard
+graphql,hard
+rest api,rest,hard
+apache kafka,kafka,hard
+rabbitmq,hard
+redis,hard
+elasticsearch,hard
+postgresql,postgres,pg,tool
+mysql,tool
+sqlite,tool
+mongodb,mongo,tool
+dynamodb,tool
+cassandra,tool
+microsoft sql server,mssql,tool
+oracle database,oracle,tool
+supabase,tool
+firebase,tool
+redis,hard
+docker,tool
+kubernetes,k8s,tool
+helm,tool
+terraform,tool
+ansible,tool
+puppet,tool
+chef,tool
+vagrant,tool
+aws,amazon web services,tool
+azure,microsoft azure,tool
+gcp,google cloud platform,google cloud,tool
+google cloud,tool
+heroku,tool
+vercel,tool
+netlify,tool
+cloudflare,tool
+nginx,tool
+apache http server,apache,tool
+apache tomcat,tomcat,tool
+linux,tool
+unix,tool
+windows server,tool
+git,tool
+github,gh,tool
+gitlab,tool
+bitbucket,tool
+jira,tool
+confluence,tool
+slack,tool
+notion,tool
+trello,tool
+asana,tool
+clickup,tool
+figma,tool
+adobe xd,tool
+sketch,tool
+photoshop,tool
+illustrator,tool
+tableau,tool
+power bi,tool
+looker,tool
+metabase,tool
+superset,tool
+excel,tool
+google sheets,tool
+pandas,tool
+numpy,tool
+scikit-learn,tool
+tensorflow,tool
+pytorch,tool
+keras,tool
+hugging face,huggingface,tool
+langchain,tool
+llama,tool
+openai,tool
+anthropic,tool
+spark,apache spark,tool
+hadoop,tool
+airflow,tool
+dagster,tool
+prefect,tool
+databricks,tool
+snowflake,tool
+bigquery,tool
+redshift,tool
+s3,tool
+glue,tool
+kinesis,tool
+lambda,tool
+step functions,tool
+selenium,tool
+playwright,tool
+cypress,tool
+jest,tool
+pytest,tool
+junit,tool
+mocha,tool
+cucumber,tool
+postman,tool
+insomnia,tool
+grafana,tool
+prometheus,tool
+datadog,tool
+new relic,tool
+sentry,tool
+opentelemetry,tool
+jenkins,tool
+circleci,tool
+github actions,tool
+travis ci,travis,tool
+teamcity,tool
+bitrise,tool
+react,reactjs,react.js,tool
+react native,tool
+next.js,nextjs,tool
+vue,vuejs,vue.js,tool
+nuxt,tool
+svelte,tool
+angular,tool
+ember,tool
+redux,tool
+zustand,tool
+tailwind css,tailwind,tool
+bootstrap,tool
+material ui,mui,tool
+shadcn,tool
+node.js,nodejs,node,tool
+express,express.js,tool
+nestjs,tool
+fastapi,tool
+django,tool
+flask,tool
+spring boot,spring,tool
+rails,ruby on rails,tool
+laravel,tool
+symfony,tool
+asp.net,tool
+graphql,tool
+apollo,tool
+prisma,tool
+sequelize,tool
+mongoose,tool
+typeorm,tool
+drizzle,tool
+knex,tool
+kafka,apache kafka,tool
+rabbitmq,tool
+pub/sub,tool
+sns,tool
+sqs,tool
+webpack,tool
+vite,tool
+rollup,tool
+esbuild,tool
+babel,tool
+eslint,tool
+prettier,tool
+web3,tool
+solidity,tool
+ethereum,tool
+bitcoin,tool

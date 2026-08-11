@@ -35,11 +35,29 @@ def skills_top(
         ).execute()
     ).data or []
 
-    # n_postings: jumlah posting dalam filter tanggal (konsisten dengan RPC top_skills)
-    count_data = (
-        client.rpc("count_postings_in_days", {"max_days": days}).execute()
-    ).data
-    n_postings = int(count_data) if count_data else 0
+    # n_postings: jumlah posting dalam filter tanggal + role (konsisten dengan RPC top_skills).
+    # Tanpa akses SQL untuk membuat RPC count baru, gunakan fungsi existing:
+    #   - role filter: search_jobs (predikat identik dengan filter role di top_skills)
+    #   - tanpa role: count_postings_in_days (existing)
+    if role_vec is not None:
+        rows = (
+            client.rpc(
+                "search_jobs",
+                {
+                    "qvec": role_vec,
+                    "search_threshold": 0.25,
+                    "max_days": days,
+                    "src": "all",
+                    "max_rows": 5000,
+                },
+            ).execute()
+        ).data or []
+        n_postings = len(rows)
+    else:
+        count_data = (
+            client.rpc("count_postings_in_days", {"max_days": days}).execute()
+        ).data
+        n_postings = int(count_data) if count_data else 0
 
     return {
         "filters": {"days": days, "role": role, "category": category},
