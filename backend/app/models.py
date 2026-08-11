@@ -37,6 +37,13 @@ class SearchResult(BaseModel):
     location: str | None
     similarity: float
     top_skills: list[str] = Field(default_factory=list)
+    description: str = ""
+    hard_skills: list[str] = Field(default_factory=list)
+    soft_skills: list[str] = Field(default_factory=list)
+    tools: list[str] = Field(default_factory=list)
+    experience_level: str = "unknown"
+    min_years_experience: float | None = None
+    employment_type: str = "unknown"
 
 
 class SkillRank(BaseModel):

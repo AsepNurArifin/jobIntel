@@ -6,10 +6,11 @@ REGISTRY: dict[str, type[AbstractJobAdapter]] = {}
 
 
 def _register() -> None:
+    from app.adapters.adzuna import AdzunaAdapter
     from app.adapters.remoteok import RemoteOKAdapter
     from app.adapters.wwr import WWRAdapter
 
-    for cls in (RemoteOKAdapter, WWRAdapter):
+    for cls in (RemoteOKAdapter, WWRAdapter, AdzunaAdapter):
         REGISTRY[cls.source] = cls
 
 

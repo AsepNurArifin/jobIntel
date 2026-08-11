@@ -41,6 +41,14 @@
             >
               <span>Insight Skill</span>
             </NuxtLink>
+            <NuxtLink
+              to="/bookmarks"
+              exact-active-class="bg-white dark:bg-gray-900 text-blue-600 dark:text-blue-400 shadow-sm font-semibold"
+              class="flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs sm:text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-all"
+            >
+              <UIcon name="i-lucide-bookmark" class="h-4 w-4" />
+              <span>Tersimpan</span>
+            </NuxtLink>
           </div>
         </div>
       </nav>

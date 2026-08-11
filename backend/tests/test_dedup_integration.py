@@ -69,6 +69,10 @@ class _Table:
         self.client.updated.append(("insert", payload))
         return FakeQuery([payload])
 
+    def upsert(self, payload, **kwargs):
+        self.client.updated.append(("upsert", payload))
+        return FakeQuery([payload])
+
     def delete(self):
         return FakeQuery([])
 

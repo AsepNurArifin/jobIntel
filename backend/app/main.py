@@ -5,7 +5,7 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api import search, skills
+from app.api import bookmarks, search, skills
 from app.config import get_settings
 from app.db import healthcheck
 
@@ -38,6 +38,7 @@ def create_app() -> FastAPI:
 
     app.include_router(search.router)
     app.include_router(skills.router)
+    app.include_router(bookmarks.router)
 
     @app.get("/health")
     def health() -> dict:

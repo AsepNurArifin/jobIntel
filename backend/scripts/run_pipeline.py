@@ -21,7 +21,7 @@ async def _main(args: argparse.Namespace) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="JobIntel pipeline manual trigger")
     parser.add_argument("--step", choices=["fetch", "dedup", "extract", "normalize", "embed", "all"], default="all")
-    parser.add_argument("--source", choices=["remoteok", "wwr", "all"], default="all")
+    parser.add_argument("--source", choices=["remoteok", "wwr", "adzuna", "all"], default="all")
     args = parser.parse_args()
     asyncio.run(_main(args))
 

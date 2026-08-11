@@ -19,6 +19,31 @@ function matchBadgeColor(score: number): string {
   if (score >= 0.6) return 'bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border-blue-200 dark:border-blue-800'
   return 'bg-amber-50 text-amber-700 dark:bg-amber-950/60 dark:text-amber-300 border-amber-200 dark:border-amber-800'
 }
+
+function levelLabel(level?: string): string {
+  switch (level) {
+    case 'junior': return 'Junior'
+    case 'mid': return 'Mid-Level'
+    case 'senior': return 'Senior'
+    default: return ''
+  }
+}
+
+function empTypeLabel(type?: string): string {
+  switch (type) {
+    case 'remote': return 'Remote'
+    case 'onsite': return 'Onsite'
+    case 'hybrid': return 'Hybrid'
+    default: return ''
+  }
+}
+
+function excerpt(text: string, max = 220): string {
+  if (!text) return ''
+  const clean = text.replace(/\s+/g, ' ').trim()
+  if (clean.length <= max) return clean
+  return clean.slice(0, max).replace(/\s+\S*$/, '') + '…'
+}
 </script>
 
 <template>
@@ -30,14 +55,12 @@ function matchBadgeColor(score: number): string {
       <div class="flex items-start justify-between gap-3">
         <div class="min-w-0 flex-1">
           <NuxtLink
-            :to="job.source_url"
-            target="_blank"
-            rel="noopener"
+            :to="`/jobs/${job.id}`"
             class="line-clamp-2 font-bold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors text-base leading-snug"
           >
             {{ job.title }}
           </NuxtLink>
-          
+
           <div class="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs text-gray-500 dark:text-gray-400 font-medium">
             <span class="flex items-center gap-1 font-semibold text-gray-700 dark:text-gray-300">
               <UIcon name="i-lucide-building-2" class="h-3.5 w-3.5 text-gray-400" />
@@ -47,6 +70,14 @@ function matchBadgeColor(score: number): string {
               <span>·</span>
               <UIcon name="i-lucide-map-pin" class="h-3.5 w-3.5 text-gray-400" />
               <span>{{ job.location }}</span>
+            </span>
+            <span v-if="levelLabel(job.experience_level)" class="flex items-center gap-1">
+              <span>·</span>
+              <span class="font-semibold text-blue-600 dark:text-blue-400">{{ levelLabel(job.experience_level) }}</span>
+            </span>
+            <span v-if="empTypeLabel(job.employment_type)" class="flex items-center gap-1">
+              <span>·</span>
+              <span>{{ empTypeLabel(job.employment_type) }}</span>
             </span>
           </div>
         </div>
@@ -74,7 +105,17 @@ function matchBadgeColor(score: number): string {
           <UIcon name="i-lucide-clock" class="h-3.5 w-3.5" />
           <span>{{ timeAgo(job.posted_date) }}</span>
         </span>
+
+        <span v-if="job.min_years_experience" class="flex items-center gap-1 text-xs text-gray-400 dark:text-gray-500 font-medium">
+          <span>·</span>
+          <span>{{ job.min_years_experience }}+ tahun</span>
+        </span>
       </div>
+
+      <!-- Description Preview -->
+      <p v-if="job.description" class="line-clamp-3 text-xs leading-relaxed text-gray-500 dark:text-gray-400">
+        {{ excerpt(job.description) }}
+      </p>
 
       <!-- Skill Pills -->
       <div v-if="job.top_skills.length" class="flex flex-wrap gap-1.5 pt-1">
@@ -91,19 +132,29 @@ function matchBadgeColor(score: number): string {
 
     <!-- Action Button -->
     <div class="pt-2 border-t border-gray-100 dark:border-gray-800/60 flex items-center justify-between">
-      <span class="text-[11px] font-medium text-gray-400 dark:text-gray-500">Klik untuk melamar</span>
-      <UButton
-        :to="job.source_url"
-        target="_blank"
-        rel="noopener"
-        size="xs"
-        color="primary"
-        variant="soft"
-        class="rounded-lg font-semibold group-hover:translate-x-0.5 transition-transform"
-      >
-        <span>Buka Loker</span>
-        <UIcon name="i-lucide-external-link" class="h-3.5 w-3.5 ml-1" />
-      </UButton>
+      <span class="text-[11px] font-medium text-gray-400 dark:text-gray-500">Lihat detail & lamar</span>
+      <div class="flex gap-2">
+        <UButton
+          :to="`/jobs/${job.id}`"
+          size="xs"
+          color="primary"
+          variant="soft"
+          class="rounded-lg font-semibold"
+        >
+          <span>Detail</span>
+        </UButton>
+        <UButton
+          :to="job.source_url"
+          target="_blank"
+          rel="noopener"
+          size="xs"
+          color="primary"
+          class="rounded-lg font-semibold group-hover:translate-x-0.5 transition-transform"
+        >
+          <span>Apply</span>
+          <UIcon name="i-lucide-external-link" class="h-3.5 w-3.5 ml-1" />
+        </UButton>
+      </div>
     </div>
   </article>
 </template>

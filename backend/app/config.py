@@ -13,6 +13,9 @@ class Settings(BaseSettings):
     groq_model: str = "llama-3.3-70b-versatile"
     groq_max_retries: int = 3
 
+    adzuna_app_id: str = ""
+    adzuna_app_key: str = ""
+
     embedding_model: str = "all-MiniLM-L6-v2"
     embedding_dim: int = 384
 

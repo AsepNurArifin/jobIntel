@@ -42,8 +42,8 @@ def upsert_raw_jobs(client: Any, jobs: list[RawJob]) -> int:
     batch = 200
     for i in range(0, len(rows), batch):
         chunk = rows[i : i + batch]
-        # Hanya insert row yang pasti belum ada (cek dulu) untuk menghindari
-        # ketidakjelasan hasil upsert ignore_duplicates lintas versi PostgREST.
+        # Pre-check existing (batched) untuk menghindari ambiguitas hasil upsert
+        # ignore_duplicates lintas versi PostgREST; hanya insert yang belum ada.
         try:
             existing = (
                 client.table("job_postings")
@@ -60,7 +60,7 @@ def upsert_raw_jobs(client: Any, jobs: list[RawJob]) -> int:
         try:
             data = (
                 client.table("job_postings")
-                .insert(fresh, on_conflict="source,source_id", ignore_duplicates=True)
+                .upsert(fresh, on_conflict="source,source_id", ignore_duplicates=True)
                 .execute()
             )
             if data.data:
@@ -70,7 +70,7 @@ def upsert_raw_jobs(client: Any, jobs: list[RawJob]) -> int:
                 try:
                     res = (
                         client.table("job_postings")
-                        .insert(row, on_conflict="source,source_id", ignore_duplicates=True)
+                        .upsert([row], on_conflict="source,source_id", ignore_duplicates=True)
                         .execute()
                     )
                     if res.data:

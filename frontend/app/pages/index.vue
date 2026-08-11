@@ -6,6 +6,8 @@ const api = useApi()
 const query = ref('')
 const days = ref(30)
 const source = ref('all')
+const level = ref('')
+const employmentType = ref('')
 const loading = ref(false)
 const error = ref<string | null>(null)
 const results = ref<JobItem[]>([])
@@ -21,6 +23,8 @@ async function doSearch() {
       q: query.value,
       days: days.value,
       source: source.value,
+      level: level.value || undefined,
+      employment_type: employmentType.value || undefined,
       limit: 30
     })
     results.value = data.results ?? []
@@ -42,7 +46,7 @@ onMounted(() => {
 })
 
 // Re-search when filter options change if query exists
-watch([days, source], () => {
+watch([days, source, level, employmentType], () => {
   if (query.value.trim() && hasSearched.value) {
     doSearch()
   }
@@ -75,7 +79,7 @@ watch([days, source], () => {
       <!-- Main Search Box & Filters -->
       <div class="w-full max-w-3xl mt-2 flex flex-col gap-4 text-left">
         <SearchBar :initial-query="query" @search="(q) => { query = q; doSearch() }" />
-        <FilterPanel v-model:days="days" v-model:source="source" />
+        <FilterPanel v-model:days="days" v-model:source="source" v-model:level="level" v-model:employmentType="employmentType" />
       </div>
     </section>
 
