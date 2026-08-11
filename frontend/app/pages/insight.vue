@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SkillRank } from '~/components/SkillBarChart.vue'
+import type { SkillRank } from '~/types'
 
 const api = useApi()
 
@@ -42,7 +42,7 @@ onMounted(load)
       <p class="text-sm text-gray-500 dark:text-gray-400">
         Ranking skill yang paling sering diminta di loker-loker terkini.
       </p>
-      <FilterPanel v-model="days" v-model:role="role" v-model:category="category" />
+      <FilterPanel v-model:days="days" v-model:role="role" v-model:category="category" />
       <UButton color="primary" :loading="loading" @click="load">
         Terapkan Filter
       </UButton>

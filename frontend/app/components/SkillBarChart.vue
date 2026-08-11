@@ -1,9 +1,5 @@
 <script setup lang="ts">
-export interface SkillRank {
-  name: string
-  category: string
-  freq: number
-}
+import type { SkillRank } from '~/types'
 
 const props = defineProps<{
   skills: SkillRank[]

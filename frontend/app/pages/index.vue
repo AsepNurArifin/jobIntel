@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { JobItem } from '~/components/JobCard.vue'
+import type { JobItem } from '~/types'
 
 const api = useApi()
 
@@ -49,7 +49,7 @@ onMounted(() => {
         Search semantik lintas RemoteOK &amp; WeWorkRemotely. Klik hasil untuk menuju sumber asli.
       </p>
       <SearchBar :initial-query="query" @search="doSearch" />
-      <FilterPanel v-model="days" v-model:source="source" />
+      <FilterPanel v-model:days="days" v-model:source="source" />
     </section>
 
     <p v-if="error" class="rounded-lg border border-red-200 bg-red-50 p-3 text-sm text-red-600 dark:border-red-800 dark:bg-red-950 dark:text-red-300">
