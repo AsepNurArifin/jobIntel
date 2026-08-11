@@ -17,12 +17,13 @@ async function doSearch() {
   error.value = null
   hasSearched.value = true
   try {
-    results.value = await api.search({
+    const data = await api.search({
       q: query.value,
       days: days.value,
       source: source.value,
       limit: 30
     })
+    results.value = data.results ?? []
   } catch (e: any) {
     error.value = e?.data?.detail ?? e?.message ?? 'Gagal mengambil data. Pastikan backend server berjalan di port 8000.'
     results.value = []
