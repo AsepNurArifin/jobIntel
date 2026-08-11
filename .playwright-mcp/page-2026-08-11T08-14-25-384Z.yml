@@ -1,0 +1,60 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - link "⌘ JobIntel AI Remote Career Engine" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]: ⌘
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - text: JobIntel
+              - generic [ref=e10]: AI
+            - generic [ref=e11]: Remote Career Engine
+        - generic [ref=e13]:
+          - link "Cari Loker" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - link "Insight Skill" [ref=e17] [cursor=pointer]:
+            - /url: /insight
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: Pencarian Semantik & AI Vector Search
+          - heading "Temukan Loker Remote IT Sesuai Skill Impianmu" [level=1] [ref=e27]
+          - paragraph [ref=e28]: JobIntel melakukan penjelajahan pintar lintas RemoteOK & WeWorkRemotely dengan analisis relevansi kecerdasan buatan.
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - textbox "Cari loker (mis. \"data scientist\", \"backend python\", \"fullstack\")" [ref=e34]: DevOps
+                - button "Bersihkan" [ref=e85]
+                - button "Cari Loker" [ref=e35]
+              - generic [ref=e37]:
+                - generic [ref=e38]: "Pencarian Populer:"
+                - button "Data Scientist" [ref=e39] [cursor=pointer]
+                - button "Backend Python" [ref=e40] [cursor=pointer]
+                - button "Fullstack React" [ref=e41] [cursor=pointer]
+                - button "DevOps" [active] [ref=e42] [cursor=pointer]
+                - button "Machine Learning" [ref=e43] [cursor=pointer]
+                - button "Golang" [ref=e44] [cursor=pointer]
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: Rentang Waktu
+                - combobox [ref=e49]:
+                  - generic: "30"
+              - generic [ref=e52]:
+                - generic [ref=e53]: Sumber Job
+                - combobox [ref=e55]:
+                  - generic: all
+        - generic [ref=e87]: Mencari loker semantik...
+    - contentinfo [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: JobIntel AI
+          - generic [ref=e66]: ·
+          - generic [ref=e67]: Engine Pencari Loker Semantik RemoteOK & WeWorkRemotely
+        - generic [ref=e68]: Backend Online
+  - generic [ref=e71]:
+    - button "Toggle Nuxt DevTools" [ref=e72] [cursor=pointer]
+    - generic "Page load time" [ref=e76]:
+      - generic [ref=e77]: "205"
+      - generic [ref=e78]: ms
+    - button "Toggle Component Inspector" [ref=e80] [cursor=pointer]

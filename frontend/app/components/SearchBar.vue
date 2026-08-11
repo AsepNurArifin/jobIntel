@@ -71,7 +71,6 @@ function clearQuery() {
         color="primary"
         class="shrink-0 rounded-xl px-5 font-semibold shadow-md shadow-blue-500/20 hover:scale-[1.02] active:scale-95 transition-all"
       >
-        <UIcon name="i-lucide-sparkles" class="h-4 w-4 mr-1" />
         <span>Cari Loker</span>
       </UButton>
     </form>
@@ -79,7 +78,6 @@ function clearQuery() {
     <!-- Quick Search Suggestions -->
     <div class="flex flex-wrap items-center gap-1.5 text-xs text-gray-500 dark:text-gray-400 px-1">
       <span class="font-medium text-gray-400 dark:text-gray-500 flex items-center gap-1">
-        <UIcon name="i-lucide-zap" class="h-3.5 w-3.5 text-amber-500" />
         Pencarian Populer:
       </span>
       <button

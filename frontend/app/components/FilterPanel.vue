@@ -22,7 +22,6 @@ const CATEGORY_OPTIONS = [
   <div class="flex flex-wrap items-center gap-3.5 rounded-2xl border border-gray-200/80 bg-white/90 p-4 shadow-sm backdrop-blur-md dark:border-gray-800 dark:bg-gray-900/90">
     <div v-if="days !== undefined" class="flex flex-col gap-1 min-w-[150px]">
       <label class="flex items-center gap-1 text-xs font-semibold text-gray-500 dark:text-gray-400">
-        <UIcon name="i-lucide-calendar" class="h-3.5 w-3.5 text-blue-500" />
         <span>Rentang Waktu</span>
       </label>
       <USelect v-model="days" :options="DAY_OPTIONS" class="w-full" size="md" />
@@ -30,7 +29,6 @@ const CATEGORY_OPTIONS = [
 
     <div v-if="source !== undefined" class="flex flex-col gap-1 min-w-[160px]">
       <label class="flex items-center gap-1 text-xs font-semibold text-gray-500 dark:text-gray-400">
-        <UIcon name="i-lucide-globe" class="h-3.5 w-3.5 text-indigo-500" />
         <span>Sumber Job</span>
       </label>
       <USelect

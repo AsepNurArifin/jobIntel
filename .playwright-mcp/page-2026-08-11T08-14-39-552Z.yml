@@ -1,0 +1,965 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - navigation [ref=e5]:
+        - link "⌘ JobIntel AI Remote Career Engine" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]: ⌘
+          - generic [ref=e8]:
+            - generic [ref=e9]:
+              - text: JobIntel
+              - generic [ref=e10]: AI
+            - generic [ref=e11]: Remote Career Engine
+        - generic [ref=e13]:
+          - link "Cari Loker" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - link "Insight Skill" [ref=e17] [cursor=pointer]:
+            - /url: /insight
+    - main [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]: Pencarian Semantik & AI Vector Search
+          - heading "Temukan Loker Remote IT Sesuai Skill Impianmu" [level=1] [ref=e27]
+          - paragraph [ref=e28]: JobIntel melakukan penjelajahan pintar lintas RemoteOK & WeWorkRemotely dengan analisis relevansi kecerdasan buatan.
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - generic [ref=e31]:
+                - textbox "Cari loker (mis. \"data scientist\", \"backend python\", \"fullstack\")" [ref=e34]: DevOps
+                - button "Bersihkan" [ref=e85]
+                - button "Cari Loker" [ref=e35]
+              - generic [ref=e37]:
+                - generic [ref=e38]: "Pencarian Populer:"
+                - button "Data Scientist" [ref=e39] [cursor=pointer]
+                - button "Backend Python" [ref=e40] [cursor=pointer]
+                - button "Fullstack React" [ref=e41] [cursor=pointer]
+                - button "DevOps" [active] [ref=e42] [cursor=pointer]
+                - button "Machine Learning" [ref=e43] [cursor=pointer]
+                - button "Golang" [ref=e44] [cursor=pointer]
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: Rentang Waktu
+                - combobox [ref=e49]:
+                  - generic: "30"
+              - generic [ref=e52]:
+                - generic [ref=e53]: Sumber Job
+                - combobox [ref=e55]:
+                  - generic: all
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e100]:
+              - text: Ditemukan
+              - strong [ref=e101]: "30"
+              - text: loker relevan
+            - generic [ref=e102]: "Query: \"DevOps\""
+          - generic [ref=e103]:
+            - article [ref=e104]:
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - generic [ref=e107]:
+                    - link "Engineer Sr, DevOps" [ref=e108] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/carnival-corporation-engineer-sr-devops
+                    - generic [ref=e109]:
+                      - generic [ref=e110]: Carnival Corporation
+                      - generic [ref=e112]:
+                        - generic [ref=e113]: ·
+                        - generic [ref=e115]: Florida
+                  - generic [ref=e116]: WeWorkRemotely
+                - generic [ref=e117]:
+                  - generic [ref=e118]: 67% Relevan
+                  - generic [ref=e120]: 26 hari lalu
+                - generic [ref=e123]:
+                  - link "#cloud technologies" [ref=e124] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#kubernetes" [ref=e125] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#security threats" [ref=e126] [cursor=pointer]:
+                    - /url: /?q=security%20threats
+                  - link "#time management" [ref=e127] [cursor=pointer]:
+                    - /url: /?q=time%20management
+                  - link "#organization" [ref=e128] [cursor=pointer]:
+                    - /url: /?q=organization
+              - generic [ref=e129]:
+                - generic [ref=e130]: Klik untuk melamar
+                - link "Buka Loker" [ref=e131] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/carnival-corporation-engineer-sr-devops
+            - article [ref=e134]:
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]:
+                    - link "Full Stack Developer - DevOps & Cloud Systems" [ref=e138] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/brightorder-full-stack-developer-devops-cloud-systems
+                    - generic [ref=e139]:
+                      - generic [ref=e140]: BrightOrder
+                      - generic [ref=e142]:
+                        - generic [ref=e143]: ·
+                        - generic [ref=e145]: Anywhere in the World
+                  - generic [ref=e146]: WeWorkRemotely
+                - generic [ref=e147]:
+                  - generic [ref=e148]: 61% Relevan
+                  - generic [ref=e150]: 20 hari lalu
+                - generic [ref=e153]:
+                  - link "#python" [ref=e154] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#javascript" [ref=e155] [cursor=pointer]:
+                    - /url: /?q=javascript
+                  - link "#typescript" [ref=e156] [cursor=pointer]:
+                    - /url: /?q=typescript
+                  - link "#golang" [ref=e157] [cursor=pointer]:
+                    - /url: /?q=golang
+                  - link "#sql" [ref=e158] [cursor=pointer]:
+                    - /url: /?q=sql
+              - generic [ref=e159]:
+                - generic [ref=e160]: Klik untuk melamar
+                - link "Buka Loker" [ref=e161] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/brightorder-full-stack-developer-devops-cloud-systems
+            - article [ref=e164]:
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - generic [ref=e167]:
+                    - link "DevOps Director" [ref=e168] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/toparo-devops-director
+                    - generic [ref=e169]:
+                      - generic [ref=e170]: Toparo
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: ·
+                        - generic [ref=e175]: Anywhere in the World
+                  - generic [ref=e176]: WeWorkRemotely
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 61% Relevan
+                  - generic [ref=e180]: 21 hari lalu
+                - generic [ref=e183]:
+                  - link "#linux" [ref=e184] [cursor=pointer]:
+                    - /url: /?q=linux
+                  - link "#git" [ref=e185] [cursor=pointer]:
+                    - /url: /?q=git
+                  - link "#automation technology" [ref=e186] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+                  - link "#problem solving" [ref=e187] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#collaboration" [ref=e188] [cursor=pointer]:
+                    - /url: /?q=collaboration
+              - generic [ref=e189]:
+                - generic [ref=e190]: Klik untuk melamar
+                - link "Buka Loker" [ref=e191] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/toparo-devops-director
+            - article [ref=e194]:
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - link "DevOps Engineer" [ref=e198] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/proctoru-devops-engineer
+                    - generic [ref=e199]:
+                      - generic [ref=e200]: ProctorU
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: ·
+                        - generic [ref=e205]: Anywhere in the World
+                  - generic [ref=e206]: WeWorkRemotely
+                - generic [ref=e207]:
+                  - generic [ref=e208]: 61% Relevan
+                  - generic [ref=e210]: 20 hari lalu
+                - generic [ref=e213]:
+                  - link "#cloud technologies" [ref=e214] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#use scripting programming" [ref=e215] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#shell scripting" [ref=e216] [cursor=pointer]:
+                    - /url: /?q=shell%20scripting
+                  - link "#python" [ref=e217] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#powershell" [ref=e218] [cursor=pointer]:
+                    - /url: /?q=powershell
+              - generic [ref=e219]:
+                - generic [ref=e220]: Klik untuk melamar
+                - link "Buka Loker" [ref=e221] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/proctoru-devops-engineer
+            - article [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]:
+                    - link "DevOps Engineer IV (Obs)" [ref=e228] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/jumio-devops-engineer-iv-obs
+                    - generic [ref=e229]:
+                      - generic [ref=e230]: Jumio
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: ·
+                        - generic [ref=e235]: Anywhere in the World
+                  - generic [ref=e236]: WeWorkRemotely
+                - generic [ref=e237]:
+                  - generic [ref=e238]: 60% Relevan
+                  - generic [ref=e240]: 5 hari lalu
+                - generic [ref=e243]:
+                  - link "#python" [ref=e244] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#shell scripting" [ref=e245] [cursor=pointer]:
+                    - /url: /?q=shell%20scripting
+                  - link "#use scripting programming" [ref=e246] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#automation technology" [ref=e247] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+                  - link "#debug software" [ref=e248] [cursor=pointer]:
+                    - /url: /?q=debug%20software
+              - generic [ref=e249]:
+                - generic [ref=e250]: Klik untuk melamar
+                - link "Buka Loker" [ref=e251] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/jumio-devops-engineer-iv-obs
+            - article [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256]:
+                  - generic [ref=e257]:
+                    - link "Senior DevOps Engineer" [ref=e258] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/five9-senior-devops-engineer
+                    - generic [ref=e259]:
+                      - generic [ref=e260]: Five9
+                      - generic [ref=e262]:
+                        - generic [ref=e263]: ·
+                        - generic [ref=e265]: Anywhere in the World
+                  - generic [ref=e266]: WeWorkRemotely
+                - generic [ref=e267]:
+                  - generic [ref=e268]: 60% Relevan
+                  - generic [ref=e270]: 27 hari lalu
+                - generic [ref=e273]:
+                  - link "#linux" [ref=e274] [cursor=pointer]:
+                    - /url: /?q=linux
+                  - link "#python" [ref=e275] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#shell scripting" [ref=e276] [cursor=pointer]:
+                    - /url: /?q=shell%20scripting
+                  - link "#use scripting programming" [ref=e277] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#automation technology" [ref=e278] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+              - generic [ref=e279]:
+                - generic [ref=e280]: Klik untuk melamar
+                - link "Buka Loker" [ref=e281] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/five9-senior-devops-engineer
+            - article [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - generic [ref=e287]:
+                    - link "OCI DevOps Engineer" [ref=e288] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/leidos-oci-devops-engineer
+                    - generic [ref=e289]:
+                      - generic [ref=e290]: Leidos
+                      - generic [ref=e292]:
+                        - generic [ref=e293]: ·
+                        - generic [ref=e295]: Anywhere in the World
+                  - generic [ref=e296]: WeWorkRemotely
+                - generic [ref=e297]:
+                  - generic [ref=e298]: 59% Relevan
+                  - generic [ref=e300]: 21 hari lalu
+                - generic [ref=e303]:
+                  - link "#devops" [ref=e304] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#cloud technologies" [ref=e305] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#linux" [ref=e306] [cursor=pointer]:
+                    - /url: /?q=linux
+                  - link "#use scripting programming" [ref=e307] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#python" [ref=e308] [cursor=pointer]:
+                    - /url: /?q=python
+              - generic [ref=e309]:
+                - generic [ref=e310]: Klik untuk melamar
+                - link "Buka Loker" [ref=e311] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/leidos-oci-devops-engineer
+            - article [ref=e314]:
+              - generic [ref=e315]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - link "IT Team Manager (DevOps) (m/f/x)" [ref=e318] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x
+                    - generic [ref=e319]:
+                      - generic [ref=e320]: PPG
+                      - generic [ref=e322]:
+                        - generic [ref=e323]: ·
+                        - generic [ref=e325]: Anywhere in the World
+                  - generic [ref=e326]: WeWorkRemotely
+                - generic [ref=e327]:
+                  - generic [ref=e328]: 58% Relevan
+                  - generic [ref=e330]: 20 hari lalu
+                - generic [ref=e333]:
+                  - link "#use scripting programming" [ref=e334] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#leadership" [ref=e335] [cursor=pointer]:
+                    - /url: /?q=leadership
+                  - link "#communication" [ref=e336] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#problem solving" [ref=e337] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#time management" [ref=e338] [cursor=pointer]:
+                    - /url: /?q=time%20management
+              - generic [ref=e339]:
+                - generic [ref=e340]: Klik untuk melamar
+                - link "Buka Loker" [ref=e341] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/ppg-it-team-manager-devops-m-f-x
+            - article [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e347]:
+                    - link "Senior DevOps Engineer, Applications" [ref=e348] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/wme-senior-devops-engineer-applications
+                    - generic [ref=e349]:
+                      - generic [ref=e350]: WME
+                      - generic [ref=e352]:
+                        - generic [ref=e353]: ·
+                        - generic [ref=e355]: Anywhere in the World
+                  - generic [ref=e356]: WeWorkRemotely
+                - generic [ref=e357]:
+                  - generic [ref=e358]: 56% Relevan
+                  - generic [ref=e360]: 26 hari lalu
+                - generic [ref=e363]:
+                  - link "#devops" [ref=e364] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#cloud technologies" [ref=e365] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#next.js" [ref=e366] [cursor=pointer]:
+                    - /url: /?q=next.js
+                  - link "#postgresql" [ref=e367] [cursor=pointer]:
+                    - /url: /?q=postgresql
+                  - link "#docker" [ref=e368] [cursor=pointer]:
+                    - /url: /?q=docker
+              - generic [ref=e369]:
+                - generic [ref=e370]: Klik untuk melamar
+                - link "Buka Loker" [ref=e371] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/wme-senior-devops-engineer-applications
+            - article [ref=e374]:
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - generic [ref=e377]:
+                    - link "Senior Manager, DevOps" [ref=e378] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/modivcare-senior-manager-devops
+                    - generic [ref=e379]:
+                      - generic [ref=e380]: Modivcare
+                      - generic [ref=e382]:
+                        - generic [ref=e383]: ·
+                        - generic [ref=e385]: Anywhere in the World
+                  - generic [ref=e386]: WeWorkRemotely
+                - generic [ref=e387]:
+                  - generic [ref=e388]: 54% Relevan
+                  - generic [ref=e390]: 21 hari lalu
+                - generic [ref=e393]:
+                  - link "#computer science" [ref=e394] [cursor=pointer]:
+                    - /url: /?q=computer%20science
+                  - link "#industrial engineering" [ref=e395] [cursor=pointer]:
+                    - /url: /?q=industrial%20engineering
+                  - link "#devops" [ref=e396] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#security threats" [ref=e397] [cursor=pointer]:
+                    - /url: /?q=security%20threats
+                  - link "#problem solving" [ref=e398] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+              - generic [ref=e399]:
+                - generic [ref=e400]: Klik untuk melamar
+                - link "Buka Loker" [ref=e401] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/modivcare-senior-manager-devops
+            - article [ref=e404]:
+              - generic [ref=e405]:
+                - generic [ref=e406]:
+                  - generic [ref=e407]:
+                    - link "DevOps Engineer" [ref=e408] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/common-securitization-solutions-devops-engineer
+                    - generic [ref=e409]:
+                      - generic [ref=e410]: Common Securitization Solutions
+                      - generic [ref=e412]:
+                        - generic [ref=e413]: ·
+                        - generic [ref=e415]: Anywhere in the World
+                  - generic [ref=e416]: WeWorkRemotely
+                - generic [ref=e417]:
+                  - generic [ref=e418]: 54% Relevan
+                  - generic [ref=e420]: 27 hari lalu
+                - generic [ref=e423]:
+                  - link "#python" [ref=e424] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#golang" [ref=e425] [cursor=pointer]:
+                    - /url: /?q=golang
+                  - link "#javascript" [ref=e426] [cursor=pointer]:
+                    - /url: /?q=javascript
+                  - link "#java" [ref=e427] [cursor=pointer]:
+                    - /url: /?q=java
+                  - link "#sql" [ref=e428] [cursor=pointer]:
+                    - /url: /?q=sql
+              - generic [ref=e429]:
+                - generic [ref=e430]: Klik untuk melamar
+                - link "Buka Loker" [ref=e431] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/common-securitization-solutions-devops-engineer
+            - article [ref=e434]:
+              - generic [ref=e435]:
+                - generic [ref=e436]:
+                  - generic [ref=e437]:
+                    - link "Sr. DevOps Engineer" [ref=e438] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/borrowell-sr-devops-engineer
+                    - generic [ref=e439]:
+                      - generic [ref=e440]: Borrowell
+                      - generic [ref=e442]:
+                        - generic [ref=e443]: ·
+                        - generic [ref=e445]: Ontario
+                  - generic [ref=e446]: WeWorkRemotely
+                - generic [ref=e447]:
+                  - generic [ref=e448]: 53% Relevan
+                  - generic [ref=e450]: 27 hari lalu
+                - generic [ref=e453]:
+                  - link "#google cloud platform" [ref=e454] [cursor=pointer]:
+                    - /url: /?q=google%20cloud%20platform
+                  - link "#shell scripting" [ref=e455] [cursor=pointer]:
+                    - /url: /?q=shell%20scripting
+                  - link "#web application security threats" [ref=e456] [cursor=pointer]:
+                    - /url: /?q=web%20application%20security%20threats
+                  - link "#teamwork" [ref=e457] [cursor=pointer]:
+                    - /url: /?q=teamwork
+                  - link "#terraform" [ref=e458] [cursor=pointer]:
+                    - /url: /?q=terraform
+              - generic [ref=e459]:
+                - generic [ref=e460]: Klik untuk melamar
+                - link "Buka Loker" [ref=e461] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/borrowell-sr-devops-engineer
+            - article [ref=e464]:
+              - generic [ref=e465]:
+                - generic [ref=e466]:
+                  - generic [ref=e467]:
+                    - link "Senior DevOps Engineer" [ref=e468] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/icf-senior-devops-engineer
+                    - generic [ref=e469]:
+                      - generic [ref=e470]: ICF
+                      - generic [ref=e472]:
+                        - generic [ref=e473]: ·
+                        - generic [ref=e475]: Virginia
+                  - generic [ref=e476]: WeWorkRemotely
+                - generic [ref=e477]:
+                  - generic [ref=e478]: 51% Relevan
+                  - generic [ref=e480]: 26 hari lalu
+                - generic [ref=e483]:
+                  - link "#automation technology" [ref=e484] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+                  - link "#linux" [ref=e485] [cursor=pointer]:
+                    - /url: /?q=linux
+                  - link "#design cloud architecture" [ref=e486] [cursor=pointer]:
+                    - /url: /?q=design%20cloud%20architecture
+                  - link "#plan migration to cloud" [ref=e487] [cursor=pointer]:
+                    - /url: /?q=plan%20migration%20to%20cloud
+                  - link "#rapid application development" [ref=e488] [cursor=pointer]:
+                    - /url: /?q=rapid%20application%20development
+              - generic [ref=e489]:
+                - generic [ref=e490]: Klik untuk melamar
+                - link "Buka Loker" [ref=e491] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/icf-senior-devops-engineer
+            - article [ref=e494]:
+              - generic [ref=e495]:
+                - generic [ref=e496]:
+                  - generic [ref=e497]:
+                    - link "IT Systems Engineer" [ref=e498] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/platform-sh-it-systems-engineer
+                    - generic [ref=e499]:
+                      - generic [ref=e500]: Platform.sh
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: ·
+                        - generic [ref=e505]: Anywhere in the World
+                  - generic [ref=e506]: WeWorkRemotely
+                - generic [ref=e507]:
+                  - generic [ref=e508]: 50% Relevan
+                  - generic [ref=e510]: 8 hari lalu
+                - generic [ref=e513]:
+                  - link "#automation technology" [ref=e514] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+                  - link "#python" [ref=e515] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#use scripting programming" [ref=e516] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#communication" [ref=e517] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#flexibility" [ref=e518] [cursor=pointer]:
+                    - /url: /?q=flexibility
+              - generic [ref=e519]:
+                - generic [ref=e520]: Klik untuk melamar
+                - link "Buka Loker" [ref=e521] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/platform-sh-it-systems-engineer
+            - article [ref=e524]:
+              - generic [ref=e525]:
+                - generic [ref=e526]:
+                  - generic [ref=e527]:
+                    - link "Senior DevOps Engineer (Web3)" [ref=e528] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/launch-legends-senior-devops-engineer-web3
+                    - generic [ref=e529]:
+                      - generic [ref=e530]: Launch Legends
+                      - generic [ref=e532]:
+                        - generic [ref=e533]: ·
+                        - generic [ref=e535]: Texas
+                  - generic [ref=e536]: WeWorkRemotely
+                - generic [ref=e537]:
+                  - generic [ref=e538]: 48% Relevan
+                  - generic [ref=e540]: 26 hari lalu
+                - generic [ref=e543]:
+                  - link "#devops" [ref=e544] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#cloud technologies" [ref=e545] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#use scripting programming" [ref=e546] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#problem solving" [ref=e547] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#communication" [ref=e548] [cursor=pointer]:
+                    - /url: /?q=communication
+              - generic [ref=e549]:
+                - generic [ref=e550]: Klik untuk melamar
+                - link "Buka Loker" [ref=e551] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/launch-legends-senior-devops-engineer-web3
+            - article [ref=e554]:
+              - generic [ref=e555]:
+                - generic [ref=e556]:
+                  - generic [ref=e557]:
+                    - link "DevOps Engineer with Splunk" [ref=e558] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/miratech-devops-engineer-with-splunk
+                    - generic [ref=e559]:
+                      - generic [ref=e560]: Miratech
+                      - generic [ref=e562]:
+                        - generic [ref=e563]: ·
+                        - generic [ref=e565]: Anywhere in the World
+                  - generic [ref=e566]: WeWorkRemotely
+                - generic [ref=e567]:
+                  - generic [ref=e568]: 46% Relevan
+                  - generic [ref=e570]: 21 hari lalu
+                - generic [ref=e573]:
+                  - link "#python" [ref=e574] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#sql" [ref=e575] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#cloud technologies" [ref=e576] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#automation technology" [ref=e577] [cursor=pointer]:
+                    - /url: /?q=automation%20technology
+                  - link "#communication" [ref=e578] [cursor=pointer]:
+                    - /url: /?q=communication
+              - generic [ref=e579]:
+                - generic [ref=e580]: Klik untuk melamar
+                - link "Buka Loker" [ref=e581] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/miratech-devops-engineer-with-splunk
+            - article [ref=e584]:
+              - generic [ref=e585]:
+                - generic [ref=e586]:
+                  - generic [ref=e587]:
+                    - link "Director of Cloud Operations" [ref=e588] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/firstup-director-of-cloud-operations
+                    - generic [ref=e589]:
+                      - generic [ref=e590]: Firstup
+                      - generic [ref=e592]:
+                        - generic [ref=e593]: ·
+                        - generic [ref=e595]: Anywhere in the World
+                  - generic [ref=e596]: WeWorkRemotely
+                - generic [ref=e597]:
+                  - generic [ref=e598]: 43% Relevan
+                  - generic [ref=e600]: 21 hari lalu
+                - generic [ref=e603]:
+                  - link "#cloud technologies" [ref=e604] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#devops" [ref=e605] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#collaboration" [ref=e606] [cursor=pointer]:
+                    - /url: /?q=collaboration
+                  - link "#leadership" [ref=e607] [cursor=pointer]:
+                    - /url: /?q=leadership
+                  - link "#aws" [ref=e608] [cursor=pointer]:
+                    - /url: /?q=aws
+              - generic [ref=e609]:
+                - generic [ref=e610]: Klik untuk melamar
+                - link "Buka Loker" [ref=e611] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/firstup-director-of-cloud-operations
+            - article [ref=e614]:
+              - generic [ref=e615]:
+                - generic [ref=e616]:
+                  - generic [ref=e617]:
+                    - link "Senior Software Engineer, Infrastructure - Compute Platform" [ref=e618] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-infrastructure-compute-platform-1
+                    - generic [ref=e619]:
+                      - generic [ref=e620]: Coinbase
+                      - generic [ref=e622]:
+                        - generic [ref=e623]: ·
+                        - generic [ref=e625]: Anywhere in the World
+                  - generic [ref=e626]: WeWorkRemotely
+                - generic [ref=e627]:
+                  - generic [ref=e628]: 43% Relevan
+                  - generic [ref=e630]: 19 hari lalu
+                - generic [ref=e633]:
+                  - link "#kubernetes" [ref=e634] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#sql" [ref=e635] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#helm" [ref=e636] [cursor=pointer]:
+                    - /url: /?q=helm
+                  - link "#prometheus" [ref=e637] [cursor=pointer]:
+                    - /url: /?q=prometheus
+                  - link "#pandas" [ref=e638] [cursor=pointer]:
+                    - /url: /?q=pandas
+              - generic [ref=e639]:
+                - generic [ref=e640]: Klik untuk melamar
+                - link "Buka Loker" [ref=e641] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-infrastructure-compute-platform-1
+            - article [ref=e644]:
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e647]:
+                    - link "Java Developer" [ref=e648] [cursor=pointer]:
+                      - /url: https://remoteOK.com/remote-jobs/remote-java-developer-clera-1136188
+                    - generic [ref=e649]:
+                      - generic [ref=e650]: Clera
+                      - generic [ref=e652]:
+                        - generic [ref=e653]: ·
+                        - generic [ref=e655]: Los Angeles
+                  - generic [ref=e656]: RemoteOK
+                - generic [ref=e657]:
+                  - generic [ref=e658]: 43% Relevan
+                  - generic [ref=e660]: 6 hari lalu
+                - generic [ref=e663]:
+                  - link "#java" [ref=e664] [cursor=pointer]:
+                    - /url: /?q=java
+                  - link "#problem solving" [ref=e665] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#kubernetes" [ref=e666] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#docker" [ref=e667] [cursor=pointer]:
+                    - /url: /?q=docker
+                  - link "#git" [ref=e668] [cursor=pointer]:
+                    - /url: /?q=git
+              - generic [ref=e669]:
+                - generic [ref=e670]: Klik untuk melamar
+                - link "Buka Loker" [ref=e671] [cursor=pointer]:
+                  - /url: https://remoteOK.com/remote-jobs/remote-java-developer-clera-1136188
+            - article [ref=e674]:
+              - generic [ref=e675]:
+                - generic [ref=e676]:
+                  - generic [ref=e677]:
+                    - link "Manager, DevOps" [ref=e678] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/sailpoint-manager-devops
+                    - generic [ref=e679]:
+                      - generic [ref=e680]: SailPoint
+                      - generic [ref=e682]:
+                        - generic [ref=e683]: ·
+                        - generic [ref=e685]: Colorado
+                  - generic [ref=e686]: WeWorkRemotely
+                - generic [ref=e687]:
+                  - generic [ref=e688]: 43% Relevan
+                  - generic [ref=e690]: 20 hari lalu
+                - generic [ref=e693]:
+                  - link "#computer programming" [ref=e694] [cursor=pointer]:
+                    - /url: /?q=computer%20programming
+                  - link "#cloud technologies" [ref=e695] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#terraform" [ref=e696] [cursor=pointer]:
+                    - /url: /?q=terraform
+                  - link "#security threats" [ref=e697] [cursor=pointer]:
+                    - /url: /?q=security%20threats
+                  - link "#leadership" [ref=e698] [cursor=pointer]:
+                    - /url: /?q=leadership
+              - generic [ref=e699]:
+                - generic [ref=e700]: Klik untuk melamar
+                - link "Buka Loker" [ref=e701] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/sailpoint-manager-devops
+            - article [ref=e704]:
+              - generic [ref=e705]:
+                - generic [ref=e706]:
+                  - generic [ref=e707]:
+                    - link "Backend Engineer, Core Technology" [ref=e708] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/stripe-backend-engineer-core-technology
+                    - generic [ref=e709]:
+                      - generic [ref=e710]: Stripe
+                      - generic [ref=e712]:
+                        - generic [ref=e713]: ·
+                        - generic [ref=e715]: Anywhere in the World
+                  - generic [ref=e716]: WeWorkRemotely
+                - generic [ref=e717]:
+                  - generic [ref=e718]: 43% Relevan
+                  - generic [ref=e720]: 20 hari lalu
+                - generic [ref=e723]:
+                  - link "#algorithms" [ref=e724] [cursor=pointer]:
+                    - /url: /?q=algorithms
+                  - link "#collaboration" [ref=e725] [cursor=pointer]:
+                    - /url: /?q=collaboration
+                  - link "#golang" [ref=e726] [cursor=pointer]:
+                    - /url: /?q=golang
+                  - link "#java" [ref=e727] [cursor=pointer]:
+                    - /url: /?q=java
+                  - link "#c++" [ref=e728] [cursor=pointer]:
+                    - /url: /?q=c%2B%2B
+              - generic [ref=e729]:
+                - generic [ref=e730]: Klik untuk melamar
+                - link "Buka Loker" [ref=e731] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/stripe-backend-engineer-core-technology
+            - article [ref=e734]:
+              - generic [ref=e735]:
+                - generic [ref=e736]:
+                  - generic [ref=e737]:
+                    - link "Devops eng_roji" [ref=e738] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/coders-brain-technology-devops-eng_roji
+                    - generic [ref=e739]:
+                      - generic [ref=e740]: Coders Brain Technology
+                      - generic [ref=e742]:
+                        - generic [ref=e743]: ·
+                        - generic [ref=e745]: Anywhere in the World
+                  - generic [ref=e746]: WeWorkRemotely
+                - generic [ref=e747]:
+                  - generic [ref=e748]: 42% Relevan
+                  - generic [ref=e750]: 20 hari lalu
+                - generic [ref=e753]:
+                  - link "#python" [ref=e754] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#kubernetes" [ref=e755] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#docker" [ref=e756] [cursor=pointer]:
+                    - /url: /?q=docker
+                  - link "#rest api" [ref=e757] [cursor=pointer]:
+                    - /url: /?q=rest%20api
+                  - link "#terraform" [ref=e758] [cursor=pointer]:
+                    - /url: /?q=terraform
+              - generic [ref=e759]:
+                - generic [ref=e760]: Klik untuk melamar
+                - link "Buka Loker" [ref=e761] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/coders-brain-technology-devops-eng_roji
+            - article [ref=e764]:
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - generic [ref=e767]:
+                    - link "Senior Java Backend Developer" [ref=e768] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-java-backend-developer
+                    - generic [ref=e769]:
+                      - generic [ref=e770]: Proxify AB
+                      - generic [ref=e772]:
+                        - generic [ref=e773]: ·
+                        - generic [ref=e775]: Anywhere in the World
+                  - generic [ref=e776]: WeWorkRemotely
+                - generic [ref=e777]:
+                  - generic [ref=e778]: 41% Relevan
+                  - generic [ref=e780]: 29 hari lalu
+                - generic [ref=e783]:
+                  - link "#java" [ref=e784] [cursor=pointer]:
+                    - /url: /?q=java
+                  - link "#sql" [ref=e785] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#nosql" [ref=e786] [cursor=pointer]:
+                    - /url: /?q=nosql
+                  - link "#cloud technologies" [ref=e787] [cursor=pointer]:
+                    - /url: /?q=cloud%20technologies
+                  - link "#communication" [ref=e788] [cursor=pointer]:
+                    - /url: /?q=communication
+              - generic [ref=e789]:
+                - generic [ref=e790]: Klik untuk melamar
+                - link "Buka Loker" [ref=e791] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-java-backend-developer
+            - article [ref=e794]:
+              - generic [ref=e795]:
+                - generic [ref=e796]:
+                  - generic [ref=e797]:
+                    - link "Senior Software Engineer, Infrastructure - Compute Platform" [ref=e798] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-infrastructure-compute-platform
+                    - generic [ref=e799]:
+                      - generic [ref=e800]: Coinbase
+                      - generic [ref=e802]:
+                        - generic [ref=e803]: ·
+                        - generic [ref=e805]: Anywhere in the World
+                  - generic [ref=e806]: WeWorkRemotely
+                - generic [ref=e807]:
+                  - generic [ref=e808]: 41% Relevan
+                  - generic [ref=e810]: 19 hari lalu
+                - generic [ref=e813]:
+                  - link "#kubernetes" [ref=e814] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#sql" [ref=e815] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#helm" [ref=e816] [cursor=pointer]:
+                    - /url: /?q=helm
+                  - link "#prometheus" [ref=e817] [cursor=pointer]:
+                    - /url: /?q=prometheus
+                  - link "#pandas" [ref=e818] [cursor=pointer]:
+                    - /url: /?q=pandas
+              - generic [ref=e819]:
+                - generic [ref=e820]: Klik untuk melamar
+                - link "Buka Loker" [ref=e821] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/coinbase-senior-software-engineer-infrastructure-compute-platform
+            - article [ref=e824]:
+              - generic [ref=e825]:
+                - generic [ref=e826]:
+                  - generic [ref=e827]:
+                    - link "DevOps Engineer III" [ref=e828] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/avalon-administrative-services-devops-engineer-iii
+                    - generic [ref=e829]:
+                      - generic [ref=e830]: Avalon Administrative Services
+                      - generic [ref=e832]:
+                        - generic [ref=e833]: ·
+                        - generic [ref=e835]: Anywhere in the World
+                  - generic [ref=e836]: WeWorkRemotely
+                - generic [ref=e837]:
+                  - generic [ref=e838]: 41% Relevan
+                  - generic [ref=e840]: 26 hari lalu
+                - generic [ref=e843]:
+                  - link "#linux" [ref=e844] [cursor=pointer]:
+                    - /url: /?q=linux
+                  - link "#devops" [ref=e845] [cursor=pointer]:
+                    - /url: /?q=devops
+                  - link "#shell scripting" [ref=e846] [cursor=pointer]:
+                    - /url: /?q=shell%20scripting
+                  - link "#python" [ref=e847] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#golang" [ref=e848] [cursor=pointer]:
+                    - /url: /?q=golang
+              - generic [ref=e849]:
+                - generic [ref=e850]: Klik untuk melamar
+                - link "Buka Loker" [ref=e851] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/avalon-administrative-services-devops-engineer-iii
+            - article [ref=e854]:
+              - generic [ref=e855]:
+                - generic [ref=e856]:
+                  - generic [ref=e857]:
+                    - link "Senior Backend Developer (Python)" [ref=e858] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-8
+                    - generic [ref=e859]:
+                      - generic [ref=e860]: Proxify AB
+                      - generic [ref=e862]:
+                        - generic [ref=e863]: ·
+                        - generic [ref=e865]: Anywhere in the World
+                  - generic [ref=e866]: WeWorkRemotely
+                - generic [ref=e867]:
+                  - generic [ref=e868]: 40% Relevan
+                  - generic [ref=e870]: 29 hari lalu
+                - generic [ref=e873]:
+                  - link "#python" [ref=e874] [cursor=pointer]:
+                    - /url: /?q=python
+                  - link "#sql" [ref=e875] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#communication" [ref=e876] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#collaboration" [ref=e877] [cursor=pointer]:
+                    - /url: /?q=collaboration
+                  - link "#time management" [ref=e878] [cursor=pointer]:
+                    - /url: /?q=time%20management
+              - generic [ref=e879]:
+                - generic [ref=e880]: Klik untuk melamar
+                - link "Buka Loker" [ref=e881] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-backend-developer-python-8
+            - article [ref=e884]:
+              - generic [ref=e885]:
+                - generic [ref=e886]:
+                  - generic [ref=e887]:
+                    - link "Enterprise Sales Engineer - Rockies" [ref=e888] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-rockies
+                    - generic [ref=e889]:
+                      - generic [ref=e890]: Datadog
+                      - generic [ref=e892]:
+                        - generic [ref=e893]: ·
+                        - generic [ref=e895]: Anywhere in the World
+                  - generic [ref=e896]: WeWorkRemotely
+                - generic [ref=e897]:
+                  - generic [ref=e898]: 39% Relevan
+                  - generic [ref=e900]: 20 hari lalu
+                - generic [ref=e903]:
+                  - link "#kubernetes" [ref=e904] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#security threats" [ref=e905] [cursor=pointer]:
+                    - /url: /?q=security%20threats
+                  - link "#communication" [ref=e906] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#problem solving" [ref=e907] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#adaptability" [ref=e908] [cursor=pointer]:
+                    - /url: /?q=adaptability
+              - generic [ref=e909]:
+                - generic [ref=e910]: Klik untuk melamar
+                - link "Buka Loker" [ref=e911] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/datadog-enterprise-sales-engineer-rockies
+            - article [ref=e914]:
+              - generic [ref=e915]:
+                - generic [ref=e916]:
+                  - generic [ref=e917]:
+                    - link "Senior Sales Engineer - Ohio Valley" [ref=e918] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ohio-valley
+                    - generic [ref=e919]:
+                      - generic [ref=e920]: Datadog
+                      - generic [ref=e922]:
+                        - generic [ref=e923]: ·
+                        - generic [ref=e925]: Anywhere in the World
+                  - generic [ref=e926]: WeWorkRemotely
+                - generic [ref=e927]:
+                  - generic [ref=e928]: 38% Relevan
+                  - generic [ref=e930]: 20 hari lalu
+                - generic [ref=e933]:
+                  - link "#kubernetes" [ref=e934] [cursor=pointer]:
+                    - /url: /?q=kubernetes
+                  - link "#security threats" [ref=e935] [cursor=pointer]:
+                    - /url: /?q=security%20threats
+                  - link "#communication" [ref=e936] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#problem solving" [ref=e937] [cursor=pointer]:
+                    - /url: /?q=problem%20solving
+                  - link "#adaptability" [ref=e938] [cursor=pointer]:
+                    - /url: /?q=adaptability
+              - generic [ref=e939]:
+                - generic [ref=e940]: Klik untuk melamar
+                - link "Buka Loker" [ref=e941] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/datadog-senior-sales-engineer-ohio-valley
+            - article [ref=e944]:
+              - generic [ref=e945]:
+                - generic [ref=e946]:
+                  - generic [ref=e947]:
+                    - link "Senior Fullstack Developer (React.js / Node.js)" [ref=e948] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-2
+                    - generic [ref=e949]:
+                      - generic [ref=e950]: Proxify AB
+                      - generic [ref=e952]:
+                        - generic [ref=e953]: ·
+                        - generic [ref=e955]: Anywhere in the World
+                  - generic [ref=e956]: WeWorkRemotely
+                - generic [ref=e957]:
+                  - generic [ref=e958]: 38% Relevan
+                  - generic [ref=e960]: 29 hari lalu
+                - generic [ref=e963]:
+                  - link "#react" [ref=e964] [cursor=pointer]:
+                    - /url: /?q=react
+                  - link "#node.js" [ref=e965] [cursor=pointer]:
+                    - /url: /?q=node.js
+                  - link "#sql" [ref=e966] [cursor=pointer]:
+                    - /url: /?q=sql
+                  - link "#data storage" [ref=e967] [cursor=pointer]:
+                    - /url: /?q=data%20storage
+                  - link "#data protection" [ref=e968] [cursor=pointer]:
+                    - /url: /?q=data%20protection
+              - generic [ref=e969]:
+                - generic [ref=e970]: Klik untuk melamar
+                - link "Buka Loker" [ref=e971] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/proxify-ab-senior-fullstack-developer-react-js-node-js-2
+            - article [ref=e974]:
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - generic [ref=e977]:
+                    - link "Contract IT Specialist" [ref=e978] [cursor=pointer]:
+                      - /url: https://weworkremotely.com/remote-jobs/customer-io-contract-it-specialist
+                    - generic [ref=e979]:
+                      - generic [ref=e980]: Customer.io
+                      - generic [ref=e982]:
+                        - generic [ref=e983]: ·
+                        - generic [ref=e985]: Anywhere in the World
+                  - generic [ref=e986]: WeWorkRemotely
+                - generic [ref=e987]:
+                  - generic [ref=e988]: 38% Relevan
+                  - generic [ref=e990]: 18 hari lalu
+                - generic [ref=e993]:
+                  - link "#use scripting programming" [ref=e994] [cursor=pointer]:
+                    - /url: /?q=use%20scripting%20programming
+                  - link "#communication" [ref=e995] [cursor=pointer]:
+                    - /url: /?q=communication
+                  - link "#jira" [ref=e996] [cursor=pointer]:
+                    - /url: /?q=jira
+                  - link "#notion" [ref=e997] [cursor=pointer]:
+                    - /url: /?q=notion
+              - generic [ref=e998]:
+                - generic [ref=e999]: Klik untuk melamar
+                - link "Buka Loker" [ref=e1000] [cursor=pointer]:
+                  - /url: https://weworkremotely.com/remote-jobs/customer-io-contract-it-specialist
+    - contentinfo [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: JobIntel AI
+          - generic [ref=e66]: ·
+          - generic [ref=e67]: Engine Pencari Loker Semantik RemoteOK & WeWorkRemotely
+        - generic [ref=e68]: Backend Online
+  - generic [ref=e71]:
+    - button "Toggle Nuxt DevTools" [ref=e72] [cursor=pointer]
+    - generic "Page load time" [ref=e76]:
+      - generic [ref=e77]: "205"
+      - generic [ref=e78]: ms
+    - button "Toggle Component Inspector" [ref=e80] [cursor=pointer]

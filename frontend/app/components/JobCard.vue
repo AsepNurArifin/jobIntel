@@ -67,7 +67,6 @@ function matchBadgeColor(score: number): string {
           class="inline-flex items-center gap-1 rounded-lg px-2 py-0.5 text-xs font-bold border shadow-2xs"
           :class="matchBadgeColor(job.similarity)"
         >
-          <UIcon name="i-lucide-sparkles" class="h-3 w-3" />
           <span>{{ Math.round(job.similarity * 100) }}% Relevan</span>
         </span>
 

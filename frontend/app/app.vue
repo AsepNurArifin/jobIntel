@@ -12,7 +12,7 @@
       <nav class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <NuxtLink to="/" class="group flex items-center gap-2.5 text-lg font-extrabold tracking-tight text-gray-900 dark:text-white transition-all">
           <div class="relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white font-mono text-sm font-black shadow-md shadow-blue-500/25 group-hover:scale-105 transition-transform">
-            <UIcon name="i-lucide-briefcase" class="h-5 w-5 text-white" />
+            ⌘
           </div>
           <div class="flex flex-col">
             <span class="flex items-center gap-1.5 leading-tight font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-blue-900 to-indigo-900 dark:from-white dark:via-blue-100 dark:to-indigo-200">
@@ -39,7 +39,6 @@
               exact-active-class="bg-white dark:bg-gray-900 text-blue-600 dark:text-blue-400 shadow-sm font-semibold"
               class="flex items-center gap-1.5 rounded-lg px-3.5 py-1.5 text-xs sm:text-sm font-medium text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-all"
             >
-              <UIcon name="i-lucide-trending-up" class="h-4 w-4" />
               <span>Insight Skill</span>
             </NuxtLink>
           </div>

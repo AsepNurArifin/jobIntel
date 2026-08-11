@@ -142,7 +142,7 @@ watch([days, source], () => {
       class="flex flex-col items-center justify-center rounded-3xl border border-dashed border-gray-300/80 dark:border-gray-800/80 bg-white/40 dark:bg-gray-900/40 p-12 text-center backdrop-blur-md"
     >
       <div class="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-50 dark:bg-blue-950/50 text-blue-500 mb-4 border border-blue-200/60 dark:border-blue-800/60">
-        <UIcon name="i-lucide-sparkles" class="h-8 w-8" />
+        ⌘
       </div>
       <h3 class="text-lg font-bold text-gray-900 dark:text-white">Mulai Pencarian Loker</h3>
       <p class="mt-1 text-sm text-gray-500 dark:text-gray-400 max-w-md">
