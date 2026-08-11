@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import threading
+
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 
 from app.config import get_settings
+
+_running = threading.Event()
 
 
 def start_scheduler() -> AsyncIOScheduler:
@@ -23,10 +27,16 @@ def start_scheduler() -> AsyncIOScheduler:
 
 
 async def _scheduled_pipeline() -> None:
-    from app.pipeline.orchestrator import run_pipeline
-
+    if _running.is_set():
+        print("[scheduler] skip: run sebelumnya masih berjalan")
+        return
+    _running.set()
     try:
+        from app.pipeline.orchestrator import run_pipeline
+
         stats = await run_pipeline()
         print(f"[scheduler] pipeline selesai: {stats}")
     except Exception as exc:  # noqa: BLE001
         print(f"[scheduler] pipeline gagal: {exc}")
+    finally:
+        _running.clear()

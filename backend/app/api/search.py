@@ -32,13 +32,13 @@ def _top_skills(client, posting_id: int, limit: int = 5) -> list[str]:
     return [by_id[i] for i in ids if i in by_id]
 
 
-@router.get("/search", response_model=list[SearchResult])
+@router.get("/search")
 def search_jobs(
     q: str,
     days: int = 30,
     source: Literal["remoteok", "wwr", "all"] = "all",
     limit: int = 20,
-) -> list[SearchResult]:
+) -> dict:
     settings = get_settings()
     client = get_client()
 
@@ -76,4 +76,8 @@ def search_jobs(
                 top_skills=_top_skills(client, row["id"]),
             )
         )
-    return results
+    return {
+        "query": q,
+        "count": len(results),
+        "results": results,
+    }

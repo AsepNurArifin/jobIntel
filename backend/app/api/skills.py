@@ -22,6 +22,7 @@ def skills_top(
     client = get_client()
 
     role_vec = encode([role], settings)[0] if role else None
+    role_sim = 1.0 - settings.role_filter_distance  # 0.75 distance -> 0.25 similarity
 
     data = (
         client.rpc(
@@ -45,7 +46,7 @@ def skills_top(
                 "search_jobs",
                 {
                     "qvec": role_vec,
-                    "search_threshold": 0.25,
+                    "search_threshold": role_sim,
                     "max_days": days,
                     "src": "all",
                     "max_rows": 5000,

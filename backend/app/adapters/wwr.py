@@ -68,10 +68,14 @@ class WWRAdapter(AbstractJobAdapter):
                     continue
                 seen.add(guid)
 
+                content = entry.get("content")
+                content_value = ""
+                if content and isinstance(content, list) and content[0].get("value"):
+                    content_value = content[0]["value"]
+                elif content and isinstance(content, str):
+                    content_value = content
                 raw_description = _strip_html(
-                    entry.get("content", [{}])[0].get("value", "")
-                    if entry.get("content")
-                    else entry.get("summary", "")
+                    content_value or entry.get("summary", "")
                 )
                 if len(raw_description) < MIN_DESCRIPTION_LENGTH:
                     continue
